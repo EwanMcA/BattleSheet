@@ -8,15 +8,16 @@ type RangedWeapon = {
     strength: string;
     ap: string;
     damage: string;
+    abilities: string[];
 };
 
-const Unit = ({ name, ranged }: { name: string, ranged: RangedWeapon[] }) => {
+const Unit = ({ name, ranged, abilities = [] }: { name: string, ranged: RangedWeapon[], abilities: string[] }) => {
   return (
     <div className={styles.card}>
       <h3 className={styles.name}>{name}</h3>
       <table>
         <thead>
-          <tr>
+          <tr className={styles.header}>
             <th scope="col">Weapon</th>
             <th scope="col">R</th>
             <th scope="col">A</th>
@@ -30,16 +31,19 @@ const Unit = ({ name, ranged }: { name: string, ranged: RangedWeapon[] }) => {
           { ranged.map((weapon) => (
             <tr>
               <th className={styles.weapon} scope="row">{weapon.name}</th>
-              <td>10"</td>
-              <td>2</td>
-              <td>3+</td>
-              <td>6</td>
-              <td>-1</td>
-              <td>1</td>
+              <td>{weapon.range}</td>
+              <td>{weapon.attacks}</td>
+              <td>{weapon.bs}</td>
+              <td>{weapon.strength}</td>
+              <td>{weapon.ap}</td>
+              <td>{weapon.damage}</td>
             </tr>
           ))}
         </tbody>
       </table>
+      <ul className={styles.abilities}>
+        {abilities.map((ability) => (<li>{ability}</li>))}
+      </ul>
       </div>
   );
 };

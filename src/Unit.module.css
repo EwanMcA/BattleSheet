@@ -17,7 +17,26 @@
      min-width: 25vw;
   }
 
+  .abilities {
+    font-size: 0.8rem;
+    list-style: none;
+    margin: 4px 0;
+    padding: 0;
+
+    li {
+      text-overflow: ellipsis;
+      overflow: hidden;
+      text-wrap: nowrap;
+    }
+  }
+
   table {
+    border-collapse: collapse;
+
+    .header {
+      border-bottom: 1px solid #fff;
+    }
+
     th, td:not(:last-child) {
       min-width: 10vw;
     }
