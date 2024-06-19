@@ -1,0 +1,25 @@
+.card {
+  background-color: #444;
+  box-sizing: border-box;
+  color: #fff;
+  max-width: 100%;
+  padding: 1em;
+  text-align: left;
+  width: 100%;
+
+  .name {
+     font-size: 1rem;
+     margin: 0;
+  }
+
+  .weapon {
+     font-size: 0.8rem;
+     min-width: 25vw;
+  }
+
+  table {
+    th, td:not(:last-child) {
+      min-width: 10vw;
+    }
+  }
+}
