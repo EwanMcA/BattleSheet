@@ -1,20 +1,45 @@
 .card {
   background-color: #444;
   box-sizing: border-box;
+  border: 1px solid #aaa;
   color: #fff;
   max-width: 100%;
-  padding: 1em;
   text-align: left;
   width: 100%;
+
+  .card_header {
+    align-items: center;
+    background: #333;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 16px;
+
+    table {
+      display: block;
+      overflow: hidden;
+      width: 80vw;
+    }
+  }
 
   .name {
      font-size: 1rem;
      margin: 0;
+     min-width: 20vw;
+     max-width: 20vw;
+  }
+
+  .details {
+    padding: 16px;
   }
 
   .weapon {
-     font-size: 0.8rem;
-     min-width: 25vw;
+    font-size: 0.8rem;
+    min-width: 25vw;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
   }
 
   .abilities {
@@ -22,12 +47,24 @@
     list-style: none;
     margin: 4px 0;
     padding: 0;
+    
+    strong {
+      color: #a55;
+    }
 
-    li {
+    .closed {
       text-overflow: ellipsis;
       overflow: hidden;
       text-wrap: nowrap;
     }
+  }
+
+  .weapon_ability {
+    background: #557;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px;
+    margin-right: 4px;
   }
 
   table {
@@ -39,6 +76,10 @@
 
     th, td:not(:last-child) {
       min-width: 10vw;
+    }
+
+    tr:first-child {
+      height: 36px;
     }
   }
 }
