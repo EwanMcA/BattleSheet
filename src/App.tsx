@@ -4,6 +4,7 @@ const enum ABILITIES {
   ASSAULT = "Assault",
   DEV_WOUNDS = "Devastating Wounds",
   HEAVY = "Heavy",
+  MELTA_2 = "Melta 2",
   ONE_SHOT = "One Shot",
   PISTOL = "Pistol",
   RAPID_1 = "Rapid Fire 1",
@@ -158,6 +159,199 @@ function App() {
             name: "Advanced Armour",
             description:
               "Models in this unit have the Feel No Pain 4+ ability against mortal wounds.",
+          },
+        ]}
+      />
+      <Unit
+        name="Commander Shadowsun" // TODO: invuln save
+        stats={{
+          move: '10"',
+          toughness: "4",
+          save: "3+",
+          wounds: "6",
+          LD: "6+",
+          OC: "1",
+        }}
+        ranged={[
+          {
+            name: "Flechette lcr",
+            range: '18"',
+            attacks: "5",
+            bs: "2+",
+            strength: "3",
+            ap: "0",
+            damage: "1",
+            abilities: [],
+          },
+          {
+            name: "High-energy fsn",
+            range: '18"',
+            attacks: "1",
+            bs: "2+",
+            strength: "10",
+            ap: "-4",
+            damage: "D6",
+            abilities: [ABILITIES.MELTA_2],
+          },
+          {
+            name: "Light missile pod",
+            range: '24"',
+            attacks: "2",
+            bs: "2+",
+            strength: "7",
+            ap: "0",
+            damage: "2",
+            abilities: [],
+          },
+          {
+            name: "Pulse pistol",
+            range: '12"',
+            attacks: "1",
+            bs: "3+",
+            strength: "5",
+            ap: "0",
+            damage: "1",
+            abilities: [ABILITIES.PISTOL],
+          }
+        ]}
+        abilities={[
+          {
+            name: "Adv Guardian Drone",
+            description: "Each time a ranged attack targets the bearer, subtract 1 from the Wound roll.",
+          },
+          {
+            name: "Command-link Drone (aura)",
+            description: "While a friendly T'au Empire unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+          },
+          {
+            name: "Agile Combatant",
+            description:
+              "This model is eligible to shoot in a turn in which it Fell Back.",
+          },
+          {
+            name: "Hero of the Empire (Aura)",
+            description:
+              "While a friendly T'au Empire unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
+          },
+        ]}
+      />
+      <Unit
+        name="Coldstar Commander"
+        stats={{
+          move: '12"',
+          toughness: "5",
+          save: "3+",
+          wounds: "6",
+          LD: "7+",
+          OC: "2",
+        }}
+        ranged={[
+          {
+            name: "4 x Fusion blaster",
+            range: '12"',
+            attacks: "1",
+            bs: "3+",
+            strength: "9",
+            ap: "-4",
+            damage: "D6",
+            abilities: [ABILITIES.MELTA_2],
+          },
+        ]}
+        abilities={[
+          {
+            name: "Shield Drone",
+            description:
+              "Add 1 to the bearer's Wounds characteristic.",
+          },
+          {
+            name: "Shield Drone",
+            description:
+              "Add 1 to the bearer's Wounds characteristic.",
+          },
+          {
+            name: "Coldstar",
+            description:
+              "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+          },
+        ]}
+      />
+      <Unit
+        name="Enforcer Commander"
+        stats={{
+          move: '8"',
+          toughness: "5",
+          save: "2+",
+          wounds: "6",
+          LD: "7+",
+          OC: "2",
+        }}
+        ranged={[
+          {
+            name: "4 x Plasma rifle",
+            range: '18"',
+            attacks: "1",
+            bs: "3+",
+            strength: "8",
+            ap: "-3",
+            damage: "3",
+            abilities: [],
+          },
+        ]}
+        abilities={[
+          {
+            name: "Shield Drone",
+            description:
+              "Add 1 to the bearer's Wounds characteristic.",
+          },
+          {
+            name: "Shield Drone",
+            description:
+              "Add 1 to the bearer's Wounds characteristic.",
+          },
+          {
+            name: "Enforcer",
+            description:
+              "While this model is leading a unit, each time a ranged attack targets that unit, worsen the AP characteristic of that attack by 1.",
+          },
+        ]}
+      />
+      <Unit
+        name="Crisis Fireknife Suits"
+        stats={{
+          move: '10"',
+          toughness: "5",
+          save: "3+",
+          wounds: "4",
+          LD: "7+",
+          OC: "2",
+        }}
+        ranged={[
+          {
+            name: "2 x Plasma rifle",
+            range: '18"',
+            attacks: "1",
+            bs: "4+",
+            strength: "8",
+            ap: "-3",
+            damage: "3",
+            abilities: [],
+          },
+        ]}
+        abilities={[
+          {
+            name: "Shield Drone",
+            description:
+              "Add 1 to the bearer's Wounds characteristic.",
+          },
+          {
+            name: "Gun Drone",
+            description:
+              "20\" 2 5+ 5 0 1 [Assault] [Twin-linked]",
+          },
+          {
+            name: "Fireknife",
+            description:
+              "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead.",
           },
         ]}
       />

@@ -1,18 +1,22 @@
 .card {
   background-color: #444;
   box-sizing: border-box;
-  border: 1px solid #aaa;
+  border: solid #000;
+  border-width: 0 1px 1px 1px;
   color: #fff;
   max-width: 100%;
   text-align: left;
   width: 100%;
+
+  &:first-child {
+    border-top: 1px solid #000;
+  }
 
   .card_header {
     align-items: center;
     background: #333;
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
     padding: 16px;
 
     table {
@@ -35,7 +39,8 @@
 
   .weapon {
     font-size: 0.8rem;
-    min-width: 25vw;
+    max-width: 24vw;
+    min-width: 24vw;
 
     text-overflow: ellipsis;
     overflow: hidden;
