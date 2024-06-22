@@ -13,11 +13,14 @@
   }
 
   .card_header {
-    align-items: center;
     background: #333;
-    display: flex;
-    gap: 1rem;
-    padding: 16px;
+
+    .title_row {
+      align-items: center;
+      display: flex;
+      gap: 1rem;
+      padding: 16px 0 8px 16px;
+    }
 
     table {
       color: #ebb;
@@ -37,9 +40,12 @@
   }
 
   .invuln {
-    background: #447;
+    display: inline-block;
+    background: linear-gradient(to bottom left, #333, 75%, #447);
+    border-radius: 4px;
     color: #ebb;
-    padding: 4px 16px;
+    padding: 6px;
+    padding-left: 16px;
   }
 
   .details {
@@ -58,8 +64,8 @@
 
   .weapon {
     font-size: 0.8rem;
-    max-width: 24vw;
-    min-width: 24vw;
+    max-width: 20vw;
+    min-width: 23vw;
     text-align: left;
 
     text-overflow: ellipsis;
@@ -98,6 +104,7 @@
 
   table {
     border-collapse: collapse;
+    table-layout: fixed;
     text-align: center;
 
     .header {
@@ -105,7 +112,8 @@
     }
 
     th, td:not(:last-child) {
-      min-width: 10vw;
+      width: 10vw;
+      max-width: 10%;
     }
 
     .weapon_row {

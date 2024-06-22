@@ -20,6 +20,7 @@ const Unit = ({
   return (
     <section className={styles.card} onClick={() => setOpen(!open)}>
       <div className={styles.card_header}>
+        <div className={styles.title_row}>
         <h3 className={styles.name}>{name}</h3>
         <table>
           <thead>
@@ -43,8 +44,9 @@ const Unit = ({
         </table>
       </div>
       {!!stats.invuln && (
-        <div className={styles.invuln}>Invlunerable Save: {stats.invuln}</div>
+        <div className={styles.invuln}>Invulnerable Save: {stats.invuln}</div>
       )}
+      </div>
       {open && <UnitDetails ranged={ranged} abilities={abilities} />}
     </section>
   );
