@@ -56,12 +56,12 @@ const Unit = ({
               <th scope="col">OC</th>
             </tr>
             <tr>
-              <td scope="col">{stats.move}</td>
-              <td scope="col">{stats.toughness}</td>
-              <td scope="col">{stats.save}</td>
-              <td scope="col">{stats.wounds}</td>
-              <td scope="col">{stats.LD}</td>
-              <td scope="col">{stats.OC}</td>
+              <td>{stats.move}</td>
+              <td>{stats.toughness}</td>
+              <td>{stats.save}</td>
+              <td>{stats.wounds}</td>
+              <td>{stats.LD}</td>
+              <td>{stats.OC}</td>
             </tr>
           </thead>
         </table>
@@ -82,7 +82,7 @@ const Unit = ({
           <tbody>
             {ranged.map((weapon) => (
               <>
-                <tr>
+                <tr className={styles.weapon_row}>
                   <th className={styles.weapon} scope="row">
                     {weapon.name}
                   </th>
@@ -93,8 +93,8 @@ const Unit = ({
                   <td>{weapon.ap}</td>
                   <td>{weapon.damage}</td>
                 </tr>
-                <tr>
-                  <td colspan="7">
+                <tr className={styles.weapon_ability_row}>
+                  <td colSpan={7}>
                     {weapon.abilities.map((ability) => (
                       <span className={styles.weapon_ability}>{ability}</span>
                     ))}

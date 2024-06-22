@@ -22,6 +22,7 @@
     table {
       display: block;
       overflow: hidden;
+      text-align: center;
       width: 80vw;
     }
   }
@@ -35,12 +36,23 @@
 
   .details {
     padding: 16px;
+
+    th {
+      &:first-child {
+        text-align: left;
+      }
+
+      &:not(:first-child) {
+        text-align: center;
+      }
+    }
   }
 
   .weapon {
     font-size: 0.8rem;
     max-width: 24vw;
     min-width: 24vw;
+    text-align: left;
 
     text-overflow: ellipsis;
     overflow: hidden;
@@ -64,16 +76,21 @@
     }
   }
 
-  .weapon_ability {
-    background: #557;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 6px;
-    margin-right: 4px;
+  .weapon_ability_row {
+    text-align: left;
+
+    .weapon_ability {
+      background: #557;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px;
+      margin-right: 4px;
+    }
   }
 
   table {
     border-collapse: collapse;
+    text-align: center;
 
     .header {
       border-bottom: 1px solid #fff;
@@ -83,8 +100,11 @@
       min-width: 10vw;
     }
 
-    tr:first-child {
-      height: 36px;
+    .weapon_row {
+      th, td {
+        padding-top: 4px;
+        vertical-align: baseline;
+      }
     }
   }
 }
