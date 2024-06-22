@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { MouseEvent, useState } from "react";
 import classNames from "classnames";
 
 import { Ability, RangedWeapon } from "./types";
@@ -12,7 +12,10 @@ const UnitDetails = ({
   abilities: Ability[];
 }) => {
   const [open, setOpen] = useState<number>(-1);
-  const toggleOpen = (i: number) => setOpen(open === i ? -1 : i);
+  const toggleOpen = (e: MouseEvent, i: number) => {
+    setOpen(open === i ? -1 : i);
+    e.stopPropagation();
+  };
 
   return (
     <div className={styles.details}>
@@ -56,7 +59,7 @@ const UnitDetails = ({
       <ul className={styles.abilities}>
         {abilities.map((ability, i) => (
           <li
-            onClick={() => toggleOpen(i)}
+            onClick={(e) => toggleOpen(e, i)}
             className={classNames({ [styles.closed]: open !== i })}
           >
             {open === i ? <>&#x25BF;</> : <>&#x25B5;</>}{" "}
