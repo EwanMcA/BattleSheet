@@ -1,5 +1,7 @@
 import Unit from "./Unit";
 
+import { Keyword } from "./types";
+
 const enum ABILITIES {
   ASSAULT = "Assault",
   DEV_WOUNDS = "Devastating Wounds",
@@ -68,6 +70,14 @@ function App() {
             description:
               "The bearer's unit has the Markerlight keyword and can act as an Observer unit for another unit even if it Advanced this turn.",
           },
+        ]}
+        keywords={[
+          Keyword.INFANTRY,
+          Keyword.BATTLELINE,
+          Keyword.GRENADES,
+          Keyword.MARKERLIGHT,
+          Keyword.FIRE_WARRIOR,
+          Keyword.BREACHER_TEAM,
         ]}
       />
       <Unit
@@ -164,7 +174,7 @@ function App() {
         ]}
       />
       <Unit
-        name="Commander Shadowsun" // TODO: invuln save
+        name="Commander Shadowsun"
         stats={{
           move: '10"',
           toughness: "4",

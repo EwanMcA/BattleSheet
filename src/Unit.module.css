@@ -49,6 +49,9 @@
   }
 
   .details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding: 16px;
 
     th {
@@ -121,6 +124,19 @@
         padding-top: 4px;
         vertical-align: baseline;
       }
+    }
+  }
+
+  .keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    .keyword {
+      background: #555;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 6px;
     }
   }
 }

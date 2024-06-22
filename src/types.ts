@@ -23,3 +23,14 @@ export type Ability = {
   name: string;
   description: string;
 };
+
+export enum Keyword {
+  BATTLELINE = "BATTLELINE",
+  BREACHER_TEAM = "BREACHER TEAM",
+  FIRE_WARRIOR = "FIRE WARRIOR",
+  GRENADES = "GRENADES",
+  INFANTRY = "INFANTRY",
+  FLY = "FLY",
+  MARKERLIGHT = "MARKERLIGHT",
+  VEHICLE = "VEHICLE",
+}

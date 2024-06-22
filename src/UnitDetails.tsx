@@ -1,15 +1,17 @@
 import { MouseEvent, useState } from "react";
 import classNames from "classnames";
 
-import { Ability, RangedWeapon } from "./types";
+import { Ability, Keyword, RangedWeapon } from "./types";
 import styles from "./Unit.module.css";
 
 const UnitDetails = ({
   ranged,
   abilities = [],
+  keywords = [],
 }: {
   ranged: RangedWeapon[];
   abilities: Ability[];
+  keywords: Keyword[];
 }) => {
   const [open, setOpen] = useState<number>(-1);
   const toggleOpen = (e: MouseEvent, i: number) => {
@@ -67,6 +69,11 @@ const UnitDetails = ({
           </li>
         ))}
       </ul>
+      <div className={styles.keywords}>
+        {keywords.map((k) => (
+          <span className={styles.keyword}>{k}</span>
+        ))}
+      </div>
     </div>
   );
 };
