@@ -8,6 +8,7 @@ const enum ABILITIES {
   HAZARD = "Hazardous",
   HEAVY = "Heavy",
   MELTA_2 = "Melta 2",
+  MELTA_4 = "Melta 4",
   ONE_SHOT = "One Shot",
   PISTOL = "Pistol",
   RAPID_1 = "Rapid Fire 1",
@@ -22,9 +23,9 @@ const Army = () => (
         move: '6"',
         toughness: "3",
         save: "4+",
-        wounds: "3",
+        wounds: "1",
         LD: "7+",
-        OC: "1",
+        OC: "2",
       }}
       ranged={[
         {
@@ -112,18 +113,22 @@ const Army = () => (
           description:
             "Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3.",
         },
+        {
+          name: "Gun Drone x 2",
+          description: '20" 2 5+ 5 0 1 [Assault] [Twin-linked]',
+        },
       ]}
       keywords={[Keyword.INFANTRY, Keyword.CHARACTER, Keyword.GRENADES, Keyword.CADRE_FB]}
     />
     <Unit
       name="Broadside Battlesuits"
       stats={{
-        move: '6"',
-        toughness: "3",
-        save: "4+",
-        wounds: "3",
+        move: '5"',
+        toughness: "6",
+        save: "2+",
+        wounds: "8",
         LD: "7+",
-        OC: "1",
+        OC: "2",
       }}
       ranged={[
         {
@@ -197,7 +202,7 @@ const Army = () => (
           abilities: [],
         },
         {
-          name: "High-energy fsn",
+          name: "2 X High-energy fsn",
           range: '18"',
           attacks: "1",
           bs: "2+",
@@ -570,6 +575,57 @@ const Army = () => (
         },
       ]}
       keywords={[Keyword.VEHICLE, Keyword.FLY, Keyword.HAMMERHEAD]}
+    />
+    <Unit
+      name="Piranha"
+      stats={{
+        move: '14"',
+        toughness: "7",
+        save: "4+",
+        wounds: "7",
+        LD: "7+",
+        OC: "2",
+      }}
+      ranged={[
+        {
+          name: "Fusion blaster",
+          range: '12"',
+          attacks: "1",
+          bs: "4+",
+          strength: "9",
+          ap: "-4",
+          damage: "D6",
+          abilities: [ABILITIES.MELTA_4],
+        },
+        {
+          name: "2 X Twin pulse carbine",
+          range: '20"',
+          attacks: "2",
+          bs: "4+",
+          strength: "5",
+          ap: "0",
+          damage: "1",
+          abilities: [ABILITIES.ASSAULT, ABILITIES.TWIN_LINKED],
+        },
+        {
+          name: "2 X Seeker missile",
+          range: '48"',
+          attacks: "1",
+          bs: "4+",
+          strength: "14",
+          ap: "-3",
+          damage: "D6+1",
+          abilities: [ABILITIES.ONE_SHOT],
+        },
+      ]}
+      abilities={[
+        {
+          name: "Drone Harassment",
+          description:
+            "At the end of your movement phase, select one enemy unit within 12\". that enemy unit must take a Battle-shock test.",
+        },
+      ]}
+      keywords={[Keyword.VEHICLE, Keyword.FLY]}
     />
     <Unit
       name="Stealth Suits"
