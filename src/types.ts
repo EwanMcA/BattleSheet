@@ -21,7 +21,7 @@ export type RangedWeapon = {
 
 export type Ability = {
   name: string;
-  description: string;
+  description?: string;
 };
 
 export enum Keyword {

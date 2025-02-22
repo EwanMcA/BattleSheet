@@ -14,7 +14,7 @@ const Filters = ({
   toggleFilter,
   activeFilters,
 }: {
-  toggleFilter: () => void;
+  toggleFilter: (filter: Keyword) => void;
   activeFilters: Keyword[];
 }) => {
   return (
