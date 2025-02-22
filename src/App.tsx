@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import Army from "./Army";
 import Filters from "./Filters";
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Filters toggleFilter={toggleFilter} activeFilters={filters}/>
+      <Filters toggleFilter={toggleFilter} activeFilters={filters} />
       <Army filters={filters} />
     </>
   );

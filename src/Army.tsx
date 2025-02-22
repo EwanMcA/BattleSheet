@@ -801,10 +801,12 @@ const myArmy = [
   },
 ];
 
-const Army = ({filters}: {filters: Keyword[]}) => (
+const Army = ({ filters }: { filters: Keyword[] }) => (
   <>
     {myArmy
-      .filter((unit) => filters.every((filter) => unit.keywords.includes(filter)))
+      .filter((unit) =>
+        filters.every((filter) => unit.keywords.includes(filter)),
+      )
       .map((unit) => (
         <Unit {...unit} />
       ))}
