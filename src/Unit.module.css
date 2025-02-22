@@ -81,7 +81,7 @@
     list-style: none;
     margin: 4px 0;
     padding: 0;
-    
+
     strong {
       color: #a55;
     }
@@ -114,13 +114,15 @@
       border-bottom: 1px solid #fff;
     }
 
-    th, td:not(:last-child) {
+    th,
+    td:not(:last-child) {
       width: 10vw;
       max-width: 10%;
     }
 
     .weapon_row {
-      th, td {
+      th,
+      td {
         padding-top: 4px;
         vertical-align: baseline;
       }

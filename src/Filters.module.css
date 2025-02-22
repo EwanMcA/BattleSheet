@@ -1,0 +1,11 @@
+.active {
+  background-color: #722;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
+  flex-wrap: wrap;
+}
