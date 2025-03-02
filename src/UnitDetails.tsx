@@ -14,7 +14,9 @@ const UnitDetails = ({
 }: {
   ranged: RangedWeapon[];
   melee: MeleeWeapon[];
-  abilities: Ability[];
+  core_abilities: Ability[];
+  faction_abilities: Ability[];
+  ds_abilities: Ability[];
   keywords: string[];
 }) => {
   const [open, setOpen] = useState<number>(-1);
@@ -87,20 +89,20 @@ const UnitDetails = ({
       <ul className={styles.abilities}>
         {!!core_abilities.length && (
           <div>
-            {core_abilities.map((ability, i) => (
+            {core_abilities.map((ability: Ability) => (
               <span className={styles.core_ability}><strong>{ability.name}</strong></span>
             ))}
           </div>
         )}
         {!!faction_abilities.length && (
           <div>
-            {faction_abilities.map((ability, i) => (
+            {faction_abilities.map((ability: Ability) => (
               <span className={styles.core_ability}><strong>{ability.name}</strong></span>
             ))}
           </div>
        )}
         <div>
-        {ds_abilities.map((ability, i) => (
+        {ds_abilities.map((ability: Ability, i: number) => (
           <li
             onClick={(e) => toggleOpen(e, i)}
             className={classNames({ [styles.closed]: open !== i })}

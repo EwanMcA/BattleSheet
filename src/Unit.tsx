@@ -18,7 +18,9 @@ const Unit = ({
   stats: BaseStats;
   ranged: RangedWeapon[];
   melee: MeleeWeapon[];
-  abilities: Ability[];
+  core_abilities: Ability[];
+  faction_abilities: Ability[];
+  ds_abilities: Ability[];
   keywords: string[];
 }) => {
   const [open, setOpen] = useState<boolean>(false);
