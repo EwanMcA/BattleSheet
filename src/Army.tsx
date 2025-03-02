@@ -2,13 +2,13 @@ import Unit from "./Unit";
 
 import { Keyword } from "./types";
 
-const Army = ({ army, filters }: { army: Unit[], filters: Keyword[] }) => (
+const Army = ({ army, filters }: { army: any, filters: Keyword[] }) => (
   <>
     {army
-      .filter((unit) =>
+      .filter((unit: any) =>
         filters.every((filter) => unit.keywords.includes(filter)),
       )
-      .map((unit) => (
+      .map((unit: any) => (
         <Unit {...unit} />
       ))}
   </>

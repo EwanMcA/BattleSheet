@@ -1,7 +1,7 @@
 import { MouseEvent, useState } from "react";
 import classNames from "classnames";
 
-import { Ability, Keyword, RangedWeapon } from "./types";
+import { Ability, RangedWeapon } from "./types";
 import styles from "./Unit.module.css";
 
 const UnitDetails = ({
@@ -11,7 +11,7 @@ const UnitDetails = ({
 }: {
   ranged: RangedWeapon[];
   abilities: Ability[];
-  keywords: Keyword[];
+  keywords: string[];
 }) => {
   const [open, setOpen] = useState<number>(-1);
   const toggleOpen = (e: MouseEvent, i: number) => {
@@ -34,7 +34,7 @@ const UnitDetails = ({
           </tr>
         </thead>
         <tbody>
-          {ranged.map((weapon) => (
+          {ranged.map((weapon: RangedWeapon) => (
             <>
               <tr className={styles.weapon_row}>
                 <th className={styles.weapon} scope="row">

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import UnitDetails from "./UnitDetails";
-import { Ability, Keyword, RangedWeapon, BaseStats } from "./types";
+import { Ability, RangedWeapon, BaseStats } from "./types";
 import styles from "./Unit.module.css";
 
 const Unit = ({
@@ -15,7 +15,7 @@ const Unit = ({
   stats: BaseStats;
   ranged: RangedWeapon[];
   abilities: Ability[];
-  keywords: str[];
+  keywords: string[];
 }) => {
   const [open, setOpen] = useState<boolean>(false);
 
