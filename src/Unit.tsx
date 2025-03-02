@@ -1,19 +1,21 @@
 import { useState } from "react";
 
 import UnitDetails from "./UnitDetails";
-import { Ability, RangedWeapon, BaseStats } from "./types";
+import { Ability, MeleeWeapon, RangedWeapon, BaseStats } from "./types";
 import styles from "./Unit.module.css";
 
 const Unit = ({
   name,
   stats,
   ranged,
+  melee,
   abilities = [],
   keywords = [],
 }: {
   name: string;
   stats: BaseStats;
   ranged: RangedWeapon[];
+  melee: MeleeWeapon[];
   abilities: Ability[];
   keywords: string[];
 }) => {
@@ -52,6 +54,7 @@ const Unit = ({
       {open && (
         <UnitDetails
           ranged={ranged}
+          melee={melee}
           abilities={abilities}
           keywords={keywords}
         />

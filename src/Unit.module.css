@@ -105,6 +105,10 @@
     }
   }
 
+  .divider {
+    border-bottom: 1px solid #555;
+  }
+
   table {
     border-collapse: collapse;
     table-layout: fixed;

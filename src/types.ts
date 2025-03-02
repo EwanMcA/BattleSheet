@@ -32,6 +32,17 @@ export type RangedWeapon = {
   abilities: Ability[];
 };
 
+export type MeleeWeapon = {
+  name: string;
+  range: string;
+  attacks: string;
+  ws: string;
+  strength: string;
+  ap: string;
+  damage: string;
+  abilities: Ability[];
+};
+
 export type Ability = {
   name: string;
   description?: string;

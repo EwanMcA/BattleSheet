@@ -1,15 +1,17 @@
 import { MouseEvent, useState } from "react";
 import classNames from "classnames";
 
-import { Ability, RangedWeapon } from "./types";
+import { Ability, MeleeWeapon, RangedWeapon } from "./types";
 import styles from "./Unit.module.css";
 
 const UnitDetails = ({
-  ranged,
+  ranged = [],
+  melee = [],
   abilities = [],
   keywords = [],
 }: {
   ranged: RangedWeapon[];
+  melee: MeleeWeapon[];
   abilities: Ability[];
   keywords: string[];
 }) => {
@@ -43,6 +45,28 @@ const UnitDetails = ({
                 <td>{weapon.range}</td>
                 <td>{weapon.attacks}</td>
                 <td>{weapon.bs}</td>
+                <td>{weapon.strength}</td>
+                <td>{weapon.ap}</td>
+                <td>{weapon.damage}</td>
+              </tr>
+              <tr className={styles.weapon_ability_row}>
+                <td colSpan={7}>
+                  {weapon.abilities.map((ability) => (
+                    <span className={styles.weapon_ability}>{ability.name}</span>
+                  ))}
+                </td>
+              </tr>
+            </>
+          ))}
+          {melee.map((weapon: MeleeWeapon) => (
+            <>
+              <tr className={styles.weapon_row}>
+                <th className={styles.weapon} scope="row">
+                  {weapon.name}
+                </th>
+                <td>⚔️</td>
+                <td>{weapon.attacks}</td>
+                <td>{weapon.ws}</td>
                 <td>{weapon.strength}</td>
                 <td>{weapon.ap}</td>
                 <td>{weapon.damage}</td>
