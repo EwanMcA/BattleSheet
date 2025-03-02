@@ -1,4 +1,17 @@
-export type Stats = {
+export enum ABILITIES {
+  ASSAULT = "Assault",
+  DEV_WOUNDS = "Devastating Wounds",
+  HAZARD = "Hazardous",
+  HEAVY = "Heavy",
+  MELTA_2 = "Melta 2",
+  MELTA_4 = "Melta 4",
+  ONE_SHOT = "One Shot",
+  PISTOL = "Pistol",
+  RAPID_1 = "Rapid Fire 1",
+  TWIN_LINKED = "Twin-linked",
+}
+
+export type BaseStats = {
   move: string;
   toughness: string;
   save: string;

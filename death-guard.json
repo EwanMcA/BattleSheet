@@ -1,0 +1,8451 @@
+[
+  {
+    "name": "Biologus Putrifier",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Hyper blight grenades",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "assault",
+            "description": null
+          },
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Injector pistol",
+        "range": "3\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Plague knives",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise 1",
+        "description": null
+      },
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Foul Infusion",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+      },
+      {
+        "name": "Explosive Maladies",
+        "description": "Once per battle round, you can target one unit from your army with this ability with the Grenade Stratagem for 0CP."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "GRENADES",
+      "BIOLOGUS",
+      "PUTRIFIER"
+    ]
+  },
+  {
+    "name": "Death Guard Chaos Lord",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "attacks": "7",
+        "ws": "2+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Plague fist",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague-encrusted exalted weapon",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lightning claws",
+        "attacks": "7",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Chaos Lord",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Desiccation Conduit (Aura)",
+        "description": "While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "GRENADES",
+      "CHAOS",
+      "LORD"
+    ]
+  },
+  {
+    "name": "Death Guard Chaos Lord in Terminator Armour",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Chainfist",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-vehicle 3+",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague fist",
+        "attacks": "5",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague-encrusted exalted weapon",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lightning claws",
+        "attacks": "7",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Chaos Lord",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+      },
+      {
+        "name": "Desiccation Conduit (Aura)",
+        "description": "While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "CHAOS",
+      "LORD"
+    ]
+  },
+  {
+    "name": "Death Guard Daemon Prince",
+    "stats": {
+      "move": "7\"",
+      "toughness": "11",
+      "save": "2+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Hellforged weapons \u2013 strike",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Hellforged weapons \u2013 sweep",
+        "attacks": "14",
+        "ws": "2+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Grandfather\u2019s Blessing (Aura, Psychic)",
+        "description": "While a friendly DEATH GUARD INFANTRY unit is within Contagion Range of this model, models in that unit have the Feel No Pain 6+ ability."
+      }
+    ],
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "PSYKER",
+      "DAEMON",
+      "DAEMON PRINCE"
+    ]
+  },
+  {
+    "name": "Death Guard Daemon Prince with Wings",
+    "stats": {
+      "move": "11\"",
+      "toughness": "10",
+      "save": "2+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Hellforged weapons \u2013 strike",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Hellforged weapons \u2013 sweep",
+        "attacks": "14",
+        "ws": "2+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "CORE",
+        "description": null
+      },
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "FACTION",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Warp Horror (Psychic)",
+        "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test."
+      },
+      {
+        "name": "Devastating Assault",
+        "description": "Each time this model ends a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability."
+      }
+    ],
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "FLY",
+      "CHAOS",
+      "NURGLE",
+      "PSYKER",
+      "DAEMON",
+      "DAEMON PRINCE WITH WINGS"
+    ]
+  },
+  {
+    "name": "Death Guard Icon Bearer",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "5+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plague boltgun",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Plague knife",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Unclean Icon",
+        "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+      },
+      {
+        "name": "Seed the Disease",
+        "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model\u2019s unit is treated as having a Contagion Range of 12\"."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "GRENADES",
+      "DEATH",
+      "GUARD",
+      "ICON",
+      "BEARER"
+    ]
+  },
+  {
+    "name": "Death Guard Sorcerer",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "5",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Curse of the Leper \u2013 witchfire",
+        "range": "24\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Curse of the Leper \u2013 focused witchfire",
+        "range": "24\"",
+        "attacks": "2D6",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Chainfist",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-vehicle 3+",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Force weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague fist",
+        "attacks": "3",
+        "ws": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague-encrusted exalted weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lightning claws",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Putrescent Vitality (Psychic)",
+        "description": "At the start of the Fight phase, you can roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER\u2019s unit, subtract 1 from the Damage characteristic of that attack."
+      },
+      {
+        "name": "Pestilent Familiar (Psychic)",
+        "description": "Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "SORCERER"
+    ]
+  },
+  {
+    "name": "Foul Blightspawn",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plague sprayer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-infantry",
+            "description": null
+          },
+          {
+            "name": "ignores",
+            "description": "cover"
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Putrefying Stink",
+        "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "GRENADES",
+      "FOUL",
+      "BLIGHTSPAWN"
+    ]
+  },
+  {
+    "name": "Lord Of Contagion",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Plagueblade \u2013 strike",
+        "attacks": "5",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plagueblade \u2013 sweep",
+        "attacks": "10",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "CORE",
+        "description": "Deep Strike, Leader"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Vector of Disease",
+        "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+      },
+      {
+        "name": "Abundance of Sickness",
+        "description": "In the Fight phase, each time this model loses a wound, roll one D6: on a 4+, the closest enemy unit within Engagement Range of this model suffers 1 mortal wound."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "GRENADES",
+      "LORD",
+      "OF",
+      "CONTAGION"
+    ]
+  },
+  {
+    "name": "Lord Of Virulence",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Twin plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry",
+            "description": null
+          },
+          {
+            "name": "ignores",
+            "description": "cover"
+          },
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Heavy plague fist",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal",
+            "description": "hits"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep",
+        "description": "Strike"
+      },
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s",
+        "description": "Gift (Aura)"
+      },
+      {
+        "name": "Master of Destruction",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the  Wound roll."
+      },
+      {
+        "name": "Blight Bombardment",
+        "description": "Each time a friendly DEATH GUARD model makes an attack with a Blast weapon that targets a unit that is visible to this model, add 1 to the Hit roll and that attack has the [IGNORES COVER] ability."
+      },
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "4+"
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "LORD",
+      "OF",
+      "VIRULENCE"
+    ]
+  },
+  {
+    "name": "Malignant Plaguecaster",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plague bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague Wind \u2013 witchfire",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "psychic",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague Wind \u2013 focused witchfire",
+        "range": "12\"",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "strength": "6",
+        "ap": "-2",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "psychic",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Corrupted staff",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Gift of Contagion (Psychic)",
+        "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2+, until the start of your next Shooting phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Pestilent Fallout (Psychic)",
+        "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Plague Wind scored a wound against an enemy INFANTRY unit, until the start of your next turn, subtract 2 from that unit\u2019s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "PSYKER",
+      "MALIGNANT",
+      "PLAGUECASTER"
+    ]
+  },
+  {
+    "name": "Mortarion",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "16",
+      "LD": "5+",
+      "OC": "6"
+    },
+    "ranged": [
+      {
+        "name": "Rotwind",
+        "range": "18\"",
+        "attacks": "D6+3",
+        "bs": "2+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "The Lantern",
+        "range": "18\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "9",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          },
+          {
+            "name": "sustained hits d3",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Silence \u2013 strike",
+        "attacks": "5",
+        "ws": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "4",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Silence \u2013 sweep",
+        "attacks": "15",
+        "ws": "2+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "4+"
+      },
+      {
+        "name": "Miasma of Pestilence (Aura)",
+        "description": "While a friendly DEATH GUARD unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+      },
+      {
+        "name": "Diseased Influence (Aura)",
+        "description": "While a friendly DEATH GUARD unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Wound roll of 1."
+      },
+      {
+        "name": "Toxic Presence (Aura)",
+        "description": "While a friendly DEATH GUARD unit is within 12\" of this model, add 3\" to the Contagion Range of that unit."
+      },
+      {
+        "name": "CORE",
+        "description": "Deadly Demise D6, Deep Strike, Feel No Pain 5+"
+      },
+      {
+        "name": "FACTION",
+        "description": "Nurgle\u2019s Gift (Aura)"
+      },
+      {
+        "name": "Host of Plagues",
+        "description": "At the start of the battle round, select one of the abilities in the Host of Plagues section (see left). Until the start of the next battle round, this model has that ability."
+      },
+      {
+        "name": "Lord of the Death Guard (Aura)",
+        "description": "While a friendly DEATH GUARD unit is within 6\" of this model, that unit can ignore any or all modifiers to its characteristics and to any roll or test made for it (excluding modifiers to saving throws)."
+      },
+      {
+        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "SUPREME COMMANDER",
+        "description": "If this model is in your army, it must be your Warlord."
+      }
+    ],
+    "keywords": [
+      "MONSTER",
+      "PSYKER",
+      "FLY",
+      "CHARACTER",
+      "EPIC",
+      "HERO",
+      "DAEMON",
+      "GRENADES",
+      "CHAOS",
+      "NURGLE",
+      "PRIMARCH",
+      "MORTARION"
+    ]
+  },
+  {
+    "name": "Noxious Blightbringer",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          },
+          {
+            "name": "hazardous",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Cursed plague bell",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Sickening Vitality",
+        "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+      },
+      {
+        "name": "The Bell Tolls (Aura)",
+        "description": "While an enemy unit is within Contagion Range of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "NOXIOUS",
+      "BLIGHTBRINGER"
+    ]
+  },
+  {
+    "name": "Plague Surgeon",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plague bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Balesword",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Tainted Narthecium",
+        "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit."
+      },
+      {
+        "name": "Diseased Healing",
+        "description": "At the end of your Movement phase, you can select one friendly DEATH GUARD INFANTRY CHARACTER model within 3\" of this model. That model regains up to 3 lost wounds. Each model can only be selected for this ability once per turn."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "PLAGUE",
+      "SURGEON"
+    ]
+  },
+  {
+    "name": "Tallyman",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Infected plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          },
+          {
+            "name": "sustained hits d3",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Infected plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          },
+          {
+            "name": "sustained hits d3",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Malicious Calculations",
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
+      },
+      {
+        "name": "The Seven-fold Chant",
+        "description": "In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "NURGLE",
+      "TALLYMAN"
+    ]
+  },
+  {
+    "name": "Typhus",
+    "stats": {
+      "move": "5\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "6",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Master-crafted manreaper \u2013 strike",
+        "attacks": "5",
+        "ws": "2+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Master-crafted manreaper \u2013 sweep",
+        "attacks": "10",
+        "ws": "2+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Leader",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "The Destroyer Hive",
+        "description": "While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "The Eater Plague (Psychic)",
+        "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this PSYKER) and roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "CHAOS",
+      "NURGLE",
+      "PSYKER",
+      "TERMINATOR",
+      "TYPHUS"
+    ]
+  },
+  {
+    "name": "Chaos Lord On Palanquin Of Nurgle",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "8",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Accursed weapon",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "attacks": "7",
+        "ws": "2+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Nurgling\u2019s claws and teeth",
+        "attacks": "4",
+        "ws": "5+",
+        "strength": "2",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "extra attacks",
+            "description": null
+          },
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Paired accursed weapons",
+        "attacks": "7",
+        "ws": "2+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Power fist",
+        "attacks": "5",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "CORE",
+        "description": "Leader"
+      },
+      {
+        "name": "FACTION",
+        "description": "Nurgle\u2019s Gift (Aura)"
+      },
+      {
+        "name": "Lord of Chaos",
+        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Revolting Regeneration",
+        "description": "At the start of your Command phase, this model regains up to D3 lost wounds."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "NURGLE",
+      "CHAOS",
+      "LORD",
+      "PALANQUIN",
+      "OF",
+      "NURGLE"
+    ]
+  },
+  {
+    "name": "Sorcerer On Palanquin Of Nurgle",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "7",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Infernal Gaze \u2013 focused witchfire",
+        "range": "24\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-2",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Infernal Gaze \u2013 witchfire",
+        "range": "24\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Accursed weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Force weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "D3",
+        "abilities": [
+          {
+            "name": "psychic",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Nurgling\u2019s claws and teeth",
+        "attacks": "4",
+        "ws": "5+",
+        "strength": "2",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "extra attacks",
+            "description": null
+          },
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Power fist",
+        "attacks": "3",
+        "ws": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Leader",
+        "description": "CORE:"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "FACTION: (Aura)"
+      },
+      {
+        "name": "Gift of Poxes (Psychic)",
+        "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Feculent Despair (Aura, Psychic)",
+        "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "PSYKER",
+      "NURGLE",
+      "SORCERER",
+      "PALANQUIN",
+      "OF",
+      "NURGLE"
+    ]
+  },
+  {
+    "name": "Plague Marines",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "3+",
+      "wounds": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Blight launcher",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Meltagun",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague belcher",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague bolt pistol",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague boltgun",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun \u2013 standard",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun \u2013 supercharge",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 standard",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma pistol \u2013 supercharge",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Bubotic weapons",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy plague weapon",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague knives",
+        "attacks": "3",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": "Remorseless: While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "NURGLE",
+      "GRENADES",
+      "BATTLELINE",
+      "PLAGUE",
+      "MARINES"
+    ]
+  },
+  {
+    "name": "Death Guard Rhino",
+    "stats": {
+      "move": "12\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "Armoured tracks",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Firing Deck 2",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Self Repair",
+        "description": "At the start of your Command phase, this model regains 1 lost wound."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "TRANSPORT",
+      "DEDICATED",
+      "TRANSPORT",
+      "SMOKE",
+      "RHINO"
+    ]
+  },
+  {
+    "name": "Terrax-pattern Termite",
+    "stats": {
+      "move": "8\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "torrent",
+            "description": "ignores cover"
+          }
+        ]
+      },
+      {
+        "name": "Terrax melta cutter",
+        "range": "12\"",
+        "attacks": "5",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta",
+            "description": "melta 2"
+          }
+        ]
+      },
+      {
+        "name": "Twin volkite charger",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": "twin-linked"
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Termite drill",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "14",
+        "ap": "-2",
+        "damage": "D3+3",
+        "abilities": [
+          {
+            "name": "anti-vehicle",
+            "description": "anti-vehicle 3+"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Termite Assault",
+        "description": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "TRANSPORT",
+      "DEDICATED",
+      "TRANSPORT",
+      "TERRAX-PATTERN",
+      "TERMITE"
+    ]
+  },
+  {
+    "name": "Miasmic Malignifier",
+    "stats": {
+      "move": "\\-",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "12",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Noxious stink",
+        "range": "6\"",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Infiltrators",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Putrescent Fog (Aura)",
+        "description": "While a friendly DEATH GUARD unit is wholly within 6\" of this FORTIFICATION, each time an attack targets that unit, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Diseased Cover",
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+      },
+      {
+        "name": "Fortification",
+        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+      }
+    ],
+    "keywords": [
+      "FORTIFICATION",
+      "CHAOS",
+      "NURGLE",
+      "MIASMIC",
+      "MALIGNIFIER"
+    ]
+  },
+  {
+    "name": "Blightlord Terminators",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Blight launcher",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Bubotic blade",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Flail of corruption",
+        "attacks": "6",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Blistering Fusillade",
+        "description": "Each time a model in this unit makes a ranged attack, if it targets the closest eligible enemy unit, re-roll a Wound roll of 1."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "BLIGHTLORD",
+      "TERMINATORS"
+    ]
+  },
+  {
+    "name": "Death Guard Chaos Spawn",
+    "stats": {
+      "move": "8\"",
+      "toughness": "5",
+      "save": "4+",
+      "wounds": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Hideous mutations",
+        "attacks": "D6+2",
+        "ws": "4+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Feel No Pain",
+        "description": "5+"
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Regenerating Monstrosities",
+        "description": "At the start of each player\u2019s Command phase, one model in this unit regains up to D3 lost wounds."
+      }
+    ],
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "NURGLE",
+      "SPAWN"
+    ]
+  },
+  {
+    "name": "Death Guard Cultists",
+    "stats": {
+      "move": "6\"",
+      "toughness": "3",
+      "save": "6+",
+      "wounds": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Cultist firearm",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Grenade launcher \u2013 frag",
+        "range": "24\"",
+        "attacks": "D3",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Grenade launcher \u2013 krak",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "D3",
+        "abilities": []
+      },
+      {
+        "name": "Heavy stubber",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "5+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 3",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Brutal assault weapon",
+        "attacks": "2",
+        "ws": "4+",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Scouts 6\"",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "NURGLE",
+      "CULTISTS"
+    ]
+  },
+  {
+    "name": "Death Guard Defiler",
+    "stats": {
+      "move": "8\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Defiler cannon",
+        "range": "48\"",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Reaper autocannon",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin plague heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Defiler claws",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "16",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Defiler scourge",
+        "attacks": "3",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "extra attacks",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Scuttling Walker",
+        "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "NURGLE",
+      "DAEMON",
+      "SMOKE",
+      "DEFILER"
+    ]
+  },
+  {
+    "name": "Death Guard Helbrute",
+    "stats": {
+      "move": "6\"",
+      "toughness": "9",
+      "save": "2+",
+      "wounds": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Helbrute plasma cannon",
+        "range": "36\"",
+        "attacks": "D3",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "hazardous",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Missile launcher \u2013 frag",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Missile launcher \u2013 krak",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "D6",
+        "abilities": []
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin plague heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Helbrute fist",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Helbrute hammer",
+        "attacks": "5",
+        "ws": "4+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Power scourge",
+        "attacks": "8",
+        "ws": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise 1",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": "Each time this model is selected to shoot or fight, after it has finished making its attacks, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is always considered to be within Contagion Range of this model."
+      },
+      {
+        "name": "Enraged Impact",
+        "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds."
+      },
+      {
+        "name": "Helbrute Fists",
+        "description": "If this model is equipped with two Helbrute fists, those weapons have the [TWIN-LINKED] ability."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "NURGLE",
+      "HELBRUTE"
+    ]
+  },
+  {
+    "name": "Death Guard Land Raider",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Twin plague heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D6",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "TRANSPORT",
+        "description": "This model has a transport capacity of 12 DEATH GUARD INFANTRY models (excluding CULTIST and POXWALKER models). Each TERMINATOR model takes up the space of 2 models."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "TRANSPORT",
+      "SMOKE",
+      "LAND",
+      "RAIDER",
+      "DEATH",
+      "GUARD"
+    ]
+  },
+  {
+    "name": "Death Guard Predator Annihilator",
+    "stats": {
+      "move": "10\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "11",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Predator twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Annihilator",
+        "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, you can re-roll the Damage roll."
+      },
+      {
+        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "PREDATOR",
+      "ANNIHILATOR"
+    ]
+  },
+  {
+    "name": "Death Guard Predator Destructor",
+    "stats": {
+      "move": "10\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "11",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 4+",
+            "description": null
+          },
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "rapid fire 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Plague combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Predator autocannon",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Destructor",
+        "description": "Each time this model makes a ranged attack that targets an INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
+      },
+      {
+        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "PREDATOR",
+      "DESTRUCTOR"
+    ]
+  },
+  {
+    "name": "Deathshroud Terminators",
+    "stats": {
+      "move": "4\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [
+      {
+        "name": "Plaguespurt gauntlet",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "pistol",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Manreaper \u2013 strike",
+        "attacks": "4",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Manreaper \u2013 sweep",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Silent Bodyguard",
+        "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit\u2019s Toughness characteristic, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "4+"
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "NURGLE",
+      "TERMINATOR",
+      "DEATHSHROUD",
+      "TERMINATORS"
+    ]
+  },
+  {
+    "name": "Foetid Bloat-drone",
+    "stats": {
+      "move": "10\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Heavy blight launcher",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plaguespitter",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Fleshmower",
+        "attacks": "10",
+        "ws": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plague probe",
+        "attacks": "3",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise 1",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Hovering Death:",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "CHAOS",
+      "NURGLE",
+      "DAEMON",
+      "FOETID",
+      "BLOAT-DRONE"
+    ]
+  },
+  {
+    "name": "Myphitic Blight-haulers",
+    "stats": {
+      "move": "10\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Bile spurt",
+        "range": "12\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Missile launcher \u2013 frag",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Missile launcher \u2013 krak",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "D6",
+        "abilities": []
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Gnashing maw",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise 1",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Tank Hunters",
+        "description": "Each time a model in this unit makes a ranged attack that targets a VEHICLE unit, add 1 to the Wound roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "DAEMON",
+      "SMOKE",
+      "MYPHITIC",
+      "BLIGHT-HAULERS"
+    ]
+  },
+  {
+    "name": "Plagueburst Crawler",
+    "stats": {
+      "move": "10\"",
+      "toughness": "10",
+      "save": "2+",
+      "wounds": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Entropy cannon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy slugger",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Plagueburst mortar",
+        "range": "48\"",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "indirect fire",
+            "description": null
+          },
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plaguespitter",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-infantry 2+",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Rothail volley gun",
+        "range": "24\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          },
+          {
+            "name": "rapid fire 3",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "description": "5+"
+      },
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Spore-laced Shock Waves",
+        "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Plagueburst mortar scored a hit against an enemy INFANTRY unit, that INFANTRY unit must take a Battle-shock test."
+      },
+      {
+        "name": "Damaged",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "DAEMON",
+      "PLAGUEBURST",
+      "CRAWLER"
+    ]
+  },
+  {
+    "name": "Poxwalkers",
+    "stats": {
+      "move": "4\"",
+      "toughness": "4",
+      "save": "7+",
+      "wounds": "1",
+      "LD": "8+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Improvised weapon",
+        "attacks": "2",
+        "ws": "5+",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Feel No Pain",
+        "description": "5+"
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Curse of the Walking Pox",
+        "description": "Each time a model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of TYPHUS\u2019 The Eater Plague ability count as enemy models destroyed by an attack made by a model in this unit for the purposes of this ability."
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "NURGLE",
+      "POXWALKERS"
+    ]
+  },
+  {
+    "name": "Death Guard Possessed",
+    "stats": {
+      "move": "9\"",
+      "toughness": "6",
+      "save": "3+",
+      "wounds": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Hideous mutations",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": "Infectious Bloodshed: Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Diseased Icon",
+        "description": "Melee weapons in the bearer\u2019s unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Faction",
+        "description": "Nurgle's Gift"
+      },
+      {
+        "name": "Faction Keyword",
+        "description": "Death Guard"
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "DAEMON",
+      "POSSESSED"
+    ]
+  },
+  {
+    "name": "NIGHTMARE HULK",
+    "stats": {
+      "move": "5\"",
+      "toughness": "5",
+      "save": "6+",
+      "wounds": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "ranged": [],
+    "melee": [],
+    "abilities": [],
+    "keywords": []
+  },
+  {
+    "name": "GELLERPOX MUTANTS",
+    "stats": {
+      "move": "N/A",
+      "toughness": "N/A",
+      "save": "N/A",
+      "wounds": "N/A",
+      "LD": "N/A",
+      "OC": "N/A"
+    },
+    "ranged": [
+      {
+        "name": "Belly-flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover, torrent",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Brutal weapons",
+        "attacks": "2",
+        "ws": "4+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Hideous mutations",
+        "attacks": "4",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Feel No Pain 5+",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Fearsome (Aura)",
+        "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      },
+      {
+        "name": "Verminous Haze",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "DAMNED",
+      "NURGLE",
+      "GELLERPOX",
+      "INFECTED"
+    ]
+  },
+  {
+    "name": "Hell Blade",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "8",
+      "save": "3+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Interceptor",
+        "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "AIRCRAFT",
+      "FLY",
+      "NURGLE",
+      "HELL",
+      "BLADE"
+    ]
+  },
+  {
+    "name": "Hell Talon",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Bomb Rack",
+        "description": "Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "AIRCRAFT",
+      "FLY",
+      "NURGLE",
+      "HELL",
+      "TALON"
+    ]
+  },
+  {
+    "name": "Mutoid Vermin",
+    "stats": {
+      "move": "8\"",
+      "toughness": "2",
+      "save": "7+",
+      "wounds": "1",
+      "LD": "8+",
+      "OC": "0"
+    },
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Diseased claws and fangs",
+        "attacks": "2",
+        "ws": "4+",
+        "strength": "2",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Feel No Pain 6+",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Mischief Makers (Aura)",
+        "description": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "SWARM",
+      "CHAOS",
+      "DAMNED",
+      "NURGLE",
+      "MUTOID",
+      "VERMIN"
+    ]
+  },
+  {
+    "name": "Cerberus",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "ranged": [
+      {
+        "name": "Cerberus neutron pulse array",
+        "range": "48\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "16",
+        "ap": "-4",
+        "damage": "D6+3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          },
+          {
+            "name": "[LETHAL HITS]",
+            "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
+          }
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "torrent, ignores cover",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D6",
+        "description": "CORE"
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": "FACTION"
+      },
+      {
+        "name": "Atomantic Arc-reactor",
+        "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "CERBERUS"
+    ]
+  },
+  {
+    "name": "Chaos Thunderhawk",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "30",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": "72\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "anti-fly",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "range": "48\"",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Turbo-laser destructor",
+        "range": "96\"",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "strength": "20",
+        "ap": "-4",
+        "damage": "D6+6",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D6+2"
+      },
+      {
+        "name": "Hover",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Aerial Assault",
+        "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "name": "Thunderhawk Cluster Bombs",
+        "description": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "Damaged",
+        "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "THUNDERHAWK"
+    ]
+  },
+  {
+    "name": "Deredeo Dreadnought",
+    "stats": {
+      "move": "6\"",
+      "toughness": "9",
+      "save": "2+",
+      "wounds": "12",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Aiolos missile launcher",
+        "range": "48\"",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Anvilus autocannon battery",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Arachnus heavy lascannon battery",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Boreas air defence missiles",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "anti-fly",
+            "description": "2+"
+          }
+        ]
+      },
+      {
+        "name": "Hellfire plasma cannonade \u2013 standard",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": []
+      },
+      {
+        "name": "Hellfire plasma cannonade \u2013 supercharge",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "hazardous",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits",
+            "description": "1"
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Volkite falconet battery",
+        "range": "30\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured feet",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "5+"
+      },
+      {
+        "name": "CORE",
+        "description": "Deadly Demise D3"
+      },
+      {
+        "name": "FACTION",
+        "description": "Nurgle\u2019s Gift (Aura)"
+      },
+      {
+        "name": "Deredeo Strike",
+        "description": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "DREADNOUGHT",
+      "DEREDEO DREADNOUGHT"
+    ]
+  },
+  {
+    "name": "Falchion",
+    "stats": {
+      "move": "9\"",
+      "toughness": "13",
+      "save": "2+",
+      "wounds": "24",
+      "LD": "6+",
+      "OC": "8"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover, torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-4",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin Falchion volcano cannon",
+        "range": "120\"",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "strength": "24",
+        "ap": "-5",
+        "damage": "12",
+        "abilities": [
+          {
+            "name": "blast, twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1, twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover, torrent, twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "CORE",
+        "description": "Deadly Demise D6+2"
+      },
+      {
+        "name": "FACTION",
+        "description": "Nurgle\u2019s Gift (Aura)"
+      },
+      {
+        "name": "Titan-killer",
+        "description": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "FALCHION"
+    ]
+  },
+  {
+    "name": "Fellblade",
+    "stats": {
+      "move": "9\"",
+      "toughness": "13",
+      "save": "2+",
+      "wounds": "24",
+      "LD": "6+",
+      "OC": "8"
+    },
+    "ranged": [
+      {
+        "name": "Demolisher cannon",
+        "range": "24\"",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Fellblade accelerator cannon \u2013 AP shells",
+        "range": "72\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "6",
+        "abilities": []
+      },
+      {
+        "name": "Fellblade accelerator cannon \u2013 HE shells",
+        "range": "72\"",
+        "attacks": "2D6",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-4",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D6+2"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Rolling Fortress",
+        "description": "Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack."
+      },
+      {
+        "name": "DAMAGED: 1-8 WOUNDS REMAINING",
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from this model\u2019s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "FELLBLADE"
+    ]
+  },
+  {
+    "name": "Fire Raptor Gunship",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Quad heavy bolter",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin avenger bolt cannon",
+        "range": "36\"",
+        "attacks": "10",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin hellstrike launcher",
+        "range": "72\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "anti-fly 2+",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "CORE: Deadly Demise D6, Hover",
+        "description": null
+      },
+      {
+        "name": "FACTION: Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Strafing Run",
+        "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+      },
+      {
+        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "CHAOS",
+      "NURGLE",
+      "FIRE",
+      "RAPTOR",
+      "GUNSHIP"
+    ]
+  },
+  {
+    "name": "Greater Blight Drone",
+    "stats": {
+      "move": "10\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Bile maw",
+        "range": "12\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Blightreaper cannon",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Greater plague probe",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "lethal hits",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise 1",
+        "description": null
+      },
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Hovering Death",
+        "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "CHAOS",
+      "NURGLE",
+      "DAEMON",
+      "GREATER",
+      "BLIGHT",
+      "DRONE"
+    ]
+  },
+  {
+    "name": "Kratos",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "ranged": [
+      {
+        "name": "Autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Combi-weapon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ANTI-INFANTRY",
+            "description": null
+          },
+          {
+            "name": "DEVASTATING WOUNDS",
+            "description": null
+          },
+          {
+            "name": "RAPID FIRE 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "range": "48\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "SUSTAINED HITS 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "IGNORES COVER",
+            "description": null
+          },
+          {
+            "name": "TORRENT",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "One shot",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Kratos battle cannon \u2013 AP",
+        "range": "36\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "18",
+        "ap": "-4",
+        "damage": "D6+3",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Kratos battle cannon \u2013 HE",
+        "range": "36\"",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannons",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Melta blast-gun",
+        "range": "24\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "MELTA 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin boltgun",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Volkite caliver",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Volkite cardanelle",
+        "range": "36\"",
+        "attacks": "9",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "0",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Volkite culverin",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D6",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Line-breaker",
+        "description": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+      },
+      {
+        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "KRATOS"
+    ]
+  },
+  {
+    "name": "Land Raider Achilles",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "ranged": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          }
+        ]
+      },
+      {
+        "name": "Quad launcher \u2013 shatter shells",
+        "range": "24\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Quad launcher \u2013 thunderfire shells",
+        "range": "60\"",
+        "attacks": "D6+4",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "indirect",
+            "description": null
+          },
+          {
+            "name": "fire",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin volkite culverin",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D6",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "NURGLE",
+      "LAND",
+      "RAIDER",
+      "ACHILLES"
+    ]
+  },
+  {
+    "name": "Land Raider Proteus",
+    "stats": {
+      "move": "12\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "one shot",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          },
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D6"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "name": "Explorator Augury Web",
+        "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this bearer, but the bearer must halve its Transport Capacity."
+      },
+      {
+        "name": "One Shot",
+        "description": "The bearer can only shoot with this weapon once per battle."
+      },
+      {
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "NURGLE",
+      "LAND",
+      "RAIDER",
+      "PROTEUS",
+      "DEATH",
+      "GUARD"
+    ]
+  },
+  {
+    "name": "Leviathan Dreadnought",
+    "stats": {
+      "move": "8\"",
+      "toughness": "10",
+      "save": "2+",
+      "wounds": "12",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Cyclonic melta lance",
+        "range": "18\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta",
+            "description": "2"
+          }
+        ]
+      },
+      {
+        "name": "Grav-flux bombard",
+        "range": "24\"",
+        "attacks": "2D3",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-vehicle",
+            "description": "2+"
+          },
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores",
+            "description": "cover"
+          },
+          {
+            "name": "torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "one shot",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Meltagun",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta",
+            "description": "2"
+          }
+        ]
+      },
+      {
+        "name": "Storm cannon",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin volkite caliver",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating",
+            "description": "wounds"
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured feet",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Leviathan siege claw",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
+      {
+        "name": "Leviathan siege drill",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "anti-vehicle",
+            "description": "3+"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Duty Eternal",
+        "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "DREADNOUGHT",
+      "LEVIATHAN",
+      "DREADNOUGHT",
+      "DEATH",
+      "GUARD"
+    ]
+  },
+  {
+    "name": "Mastodon",
+    "stats": {
+      "move": "9\"",
+      "toughness": "14",
+      "save": "2+",
+      "wounds": "30",
+      "LD": "6+",
+      "OC": "12"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover, torrent",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Siege melta array",
+        "range": "24\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Skyreaper battery",
+        "range": "48\"",
+        "attacks": "8",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-fly 4+",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Volkite culverin",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "2D6"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Inviolable Transport",
+        "description": "Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "CHAOS",
+      "NURGLE",
+      "TRANSPORT",
+      "SMOKE",
+      "MASTODON"
+    ]
+  },
+  {
+    "name": "Rapier Carrier",
+    "stats": {
+      "move": "3\"",
+      "toughness": "6",
+      "save": "2+",
+      "wounds": "6",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "ranged": [
+      {
+        "name": "Boltgun",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Graviton cannon",
+        "range": "36\"",
+        "attacks": "D6",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "anti-vehicle",
+            "description": "2+"
+          },
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-4",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Quad heavy bolter",
+        "range": "36\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          },
+          {
+            "name": "sustained",
+            "description": "hits 1"
+          }
+        ]
+      },
+      {
+        "name": "Quad launcher \u2013 shatter shells",
+        "range": "24\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Quad launcher \u2013 thunderfire shells",
+        "range": "60\"",
+        "attacks": "D6+4",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "heavy",
+            "description": null
+          },
+          {
+            "name": "indirect fire",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "attacks": "2",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Powerful Volley",
+        "description": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
+      }
+    ],
+    "keywords": [
+      "ARTILLERY",
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "RAPIER",
+      "CARRIER"
+    ]
+  },
+  {
+    "name": "Relic Contemptor Dreadnought",
+    "stats": {
+      "move": "6\"",
+      "toughness": "9",
+      "save": "2+",
+      "wounds": "10",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Combi-bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Conversion beam cannon",
+        "range": "24\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "conversion",
+            "description": null
+          },
+          {
+            "name": "sustained hits d3",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Cyclone missile launcher \u2013 frag",
+        "range": "36\"",
+        "attacks": "2D6",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "BLAST",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Cyclone missile launcher \u2013 krak",
+        "range": "36\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "D6",
+        "abilities": []
+      },
+      {
+        "name": "Graviton blaster",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "anti-vehicle 2+",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin autocannon",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "TWIN-LINKED",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "TWIN-LINKED",
+            "description": null
+          },
+          {
+            "name": "SUSTAINED HITS 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "TWIN-LINKED",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "IGNORES COVER",
+            "description": null
+          },
+          {
+            "name": "TORRENT",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy plasma cannon \u2013 standard",
+        "range": "36\"",
+        "attacks": "D3",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy plasma cannon \u2013 supercharge",
+        "range": "36\"",
+        "attacks": "D3",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "hazardous",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Kheres-pattern assault cannon",
+        "range": "24\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "MELTA 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Plasma blaster \u2013 standard",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Plasma blaster \u2013 supercharge",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "8",
+        "ap": "-3",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "HAZARDOUS",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin volkite culverin",
+        "range": "36\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured feet",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      },
+      {
+        "name": "Dreadnought chainfist",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "anti-vehicle 3+",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Dreadnought combat weapon",
+        "attacks": "5",
+        "ws": "3+",
+        "strength": "12",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "5+"
+      },
+      {
+        "name": "Conversion",
+        "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
+      },
+      {
+        "name": "CORE",
+        "description": "Deadly Demise 1"
+      },
+      {
+        "name": "FACTION",
+        "description": "Nurgle\u2019s Gift (Aura)"
+      },
+      {
+        "name": "Even In Death I Serve",
+        "description": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+      },
+      {
+        "name": "DETACHMENT ABILITY",
+        "description": "Spread the Sickness"
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "NURGLE",
+      "DREADNOUGHT",
+      "RELIC",
+      "CONTEMPTOR",
+      "DREADNOUGHT",
+      "DEATH",
+      "GUARD"
+    ]
+  },
+  {
+    "name": "Sicaran Battle Tank",
+    "stats": {
+      "move": "10\"",
+      "toughness": "11",
+      "save": "2+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Herakles-pattern autocannon",
+        "range": "48\"",
+        "attacks": "6",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "one shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Armoured Spearhead",
+        "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+      },
+      {
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "SICARAN",
+      "BATTLE",
+      "TANK"
+    ]
+  },
+  {
+    "name": "Sicaran Punisher",
+    "stats": {
+      "move": "10\"",
+      "toughness": "11",
+      "save": "2+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "one shot",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Punisher rotary cannon",
+        "range": "36\"",
+        "attacks": "18",
+        "bs": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "devastating wounds",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D3",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Rotating Death",
+        "description": "This model\u2019s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units."
+      },
+      {
+        "name": "Damaged: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "SICARAN",
+      "PUNISHER"
+    ]
+  },
+  {
+    "name": "Sicaran Venator",
+    "stats": {
+      "move": "10\"",
+      "toughness": "11",
+      "save": "2+",
+      "wounds": "14",
+      "LD": "6+",
+      "OC": "4"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "One shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Venator neutron laser",
+        "range": "48\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "16",
+        "ap": "-4",
+        "damage": "D3+3",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Ferocious Assault:",
+        "description": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
+      },
+      {
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "SICARAN",
+      "VENATOR",
+      "DEATH",
+      "GUARD"
+    ]
+  },
+  {
+    "name": "Sokar-pattern Stormbird",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "13",
+      "save": "2+",
+      "wounds": "40",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Hellstrike missile battery",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "anti-fly",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "9",
+        "ws": "4+",
+        "strength": "9",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "2D6"
+      },
+      {
+        "name": "Hover",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Aerial Assault",
+        "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      },
+      {
+        "name": "INVULNERABLE SAVE*",
+        "description": "4+"
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "TITANIC",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "NURGLE",
+      "SOKAR-PATTERN",
+      "STORMBIRD"
+    ]
+  },
+  {
+    "name": "Spartan",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "ignores cover",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Laser destroyer",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-4",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "heavy",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Quad lascannon",
+        "range": "48\"",
+        "attacks": "4",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "ignores cover",
+            "description": null
+          },
+          {
+            "name": "torrent",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D6"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "TRANSPORT",
+      "SMOKE",
+      "SPARTAN"
+    ]
+  },
+  {
+    "name": "Storm Eagle Gunship",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Twin heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "sustained hits 1",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin hellstrike launcher",
+        "range": "72\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "10",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "anti-fly 2+",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Twin multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "melta 2",
+            "description": null
+          },
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Typhoon missile launcher \u2013 frag",
+        "range": "48\"",
+        "attacks": "2D6",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Typhoon missile launcher \u2013 krak",
+        "range": "48\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-2",
+        "damage": "D6",
+        "abilities": []
+      },
+      {
+        "name": "Vengeance launcher",
+        "range": "48\"",
+        "attacks": "2D6",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise D6",
+        "description": null
+      },
+      {
+        "name": "Hover",
+        "description": null
+      },
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      },
+      {
+        "name": "Armoured Resilience",
+        "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "TRANSPORT",
+      "CHAOS",
+      "NURGLE",
+      "STORM",
+      "EAGLE",
+      "GUNSHIP"
+    ]
+  },
+  {
+    "name": "Typhon",
+    "stats": {
+      "move": "10\"",
+      "toughness": "12",
+      "save": "2+",
+      "wounds": "18",
+      "LD": "6+",
+      "OC": "6"
+    },
+    "ranged": [
+      {
+        "name": "Dreadhammer siege cannon",
+        "range": "24\"",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "Blast",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "Sustained hits 1",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "Torrent",
+            "description": null
+          },
+          {
+            "name": "Ignores cover",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": []
+      },
+      {
+        "name": "Multi-melta",
+        "range": "18\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "9",
+        "ap": "-4",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "Melta 2",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "Rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "6",
+        "ws": "4+",
+        "strength": "8",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D6"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Sunderer of Fortresses",
+        "description": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+      },
+      {
+        "name": "Damaged",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "CHAOS",
+      "NURGLE",
+      "SMOKE",
+      "TYPHON"
+    ]
+  },
+  {
+    "name": "Whirlwind Scorpius",
+    "stats": {
+      "move": "10\"",
+      "toughness": "10",
+      "save": "3+",
+      "wounds": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "ranged": [
+      {
+        "name": "Hunter-killer missile",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "2+",
+        "strength": "14",
+        "ap": "-3",
+        "damage": "D6",
+        "abilities": [
+          {
+            "name": "One Shot",
+            "description": "The bearer can only shoot with this weapon once per battle."
+          }
+        ]
+      },
+      {
+        "name": "Scorpius multi-launcher",
+        "range": "48\"",
+        "attacks": "2D3+3",
+        "bs": "3+",
+        "strength": "6",
+        "ap": "-1",
+        "damage": "2",
+        "abilities": [
+          {
+            "name": "blast",
+            "description": null
+          },
+          {
+            "name": "indirect fire",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          {
+            "name": "rapid fire 2",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Pinning Bombardment",
+        "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test."
+      },
+      {
+        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "SMOKE",
+      "CHAOS",
+      "NURGLE",
+      "WHIRLWIND",
+      "SCORPIUS"
+    ]
+  },
+  {
+    "name": "Xiphon Interceptor",
+    "stats": {
+      "move": "20+\"",
+      "toughness": "9",
+      "save": "3+",
+      "wounds": "12",
+      "LD": "6+",
+      "OC": "0"
+    },
+    "ranged": [
+      {
+        "name": "Twin lascannon",
+        "range": "48\"",
+        "attacks": "1",
+        "bs": "3+",
+        "strength": "12",
+        "ap": "-3",
+        "damage": "D6+1",
+        "abilities": [
+          {
+            "name": "twin-linked",
+            "description": null
+          }
+        ]
+      },
+      {
+        "name": "Xiphon missile battery",
+        "range": "60\"",
+        "attacks": "3",
+        "bs": "3+",
+        "strength": "7",
+        "ap": "-1",
+        "damage": "3",
+        "abilities": [
+          {
+            "name": "anti-fly",
+            "description": "2+"
+          }
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Deadly Demise",
+        "description": "D3"
+      },
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      },
+      {
+        "name": "Interceptor",
+        "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
+      },
+      {
+        "name": "DAMAGED",
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
+      }
+    ],
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "AIRCRAFT",
+      "CHAOS",
+      "NURGLE",
+      "XIPHON",
+      "INTERCEPTOR"
+    ]
+  }
+]

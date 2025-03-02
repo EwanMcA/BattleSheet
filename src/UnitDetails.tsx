@@ -50,7 +50,7 @@ const UnitDetails = ({
               <tr className={styles.weapon_ability_row}>
                 <td colSpan={7}>
                   {weapon.abilities.map((ability) => (
-                    <span className={styles.weapon_ability}>{ability}</span>
+                    <span className={styles.weapon_ability}>{ability.name}</span>
                   ))}
                 </td>
               </tr>
@@ -64,8 +64,14 @@ const UnitDetails = ({
             onClick={(e) => toggleOpen(e, i)}
             className={classNames({ [styles.closed]: open !== i })}
           >
-            {open === i ? <>&#x25BF;</> : <>&#x25B5;</>}{" "}
-            <strong>{ability.name}</strong>: {ability.description}
+          {ability.description ? (
+            <>
+              {open === i ? <>&#x25BF;</> : <>&#x25B5;</>}{" "}
+              <strong>{ability.name}</strong>: {ability.description}
+            </>
+          ) : (
+            <strong>{ability.name}</strong>
+          )}
           </li>
         ))}
       </ul>
