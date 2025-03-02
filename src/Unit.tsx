@@ -9,7 +9,9 @@ const Unit = ({
   stats,
   ranged,
   melee,
-  abilities = [],
+  core_abilities = [],
+  faction_abilities = [],
+  ds_abilities = [],
   keywords = [],
 }: {
   name: string;
@@ -55,7 +57,9 @@ const Unit = ({
         <UnitDetails
           ranged={ranged}
           melee={melee}
-          abilities={abilities}
+          core_abilities={core_abilities}
+          faction_abilities={faction_abilities}
+          ds_abilities={ds_abilities}
           keywords={keywords}
         />
       )}

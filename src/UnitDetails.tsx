@@ -7,7 +7,9 @@ import styles from "./Unit.module.css";
 const UnitDetails = ({
   ranged = [],
   melee = [],
-  abilities = [],
+  core_abilities = [],
+  faction_abilities = [],
+  ds_abilities = [],
   keywords = [],
 }: {
   ranged: RangedWeapon[];
@@ -52,7 +54,7 @@ const UnitDetails = ({
               <tr className={styles.weapon_ability_row}>
                 <td colSpan={7}>
                   {weapon.abilities.map((ability) => (
-                    <span className={styles.weapon_ability}>{ability.name}</span>
+                    <span className={styles.weapon_ability}>{ability}</span>
                   ))}
                 </td>
               </tr>
@@ -74,7 +76,7 @@ const UnitDetails = ({
               <tr className={styles.weapon_ability_row}>
                 <td colSpan={7}>
                   {weapon.abilities.map((ability) => (
-                    <span className={styles.weapon_ability}>{ability.name}</span>
+                    <span className={styles.weapon_ability}>{ability}</span>
                   ))}
                 </td>
               </tr>
@@ -83,7 +85,22 @@ const UnitDetails = ({
         </tbody>
       </table>
       <ul className={styles.abilities}>
-        {abilities.map((ability, i) => (
+        {!!core_abilities.length && (
+          <div>
+            {core_abilities.map((ability, i) => (
+              <span className={styles.core_ability}><strong>{ability.name}</strong></span>
+            ))}
+          </div>
+        )}
+        {!!faction_abilities.length && (
+          <div>
+            {faction_abilities.map((ability, i) => (
+              <span className={styles.core_ability}><strong>{ability.name}</strong></span>
+            ))}
+          </div>
+       )}
+        <div>
+        {ds_abilities.map((ability, i) => (
           <li
             onClick={(e) => toggleOpen(e, i)}
             className={classNames({ [styles.closed]: open !== i })}
@@ -98,6 +115,7 @@ const UnitDetails = ({
           )}
           </li>
         ))}
+        </div>
       </ul>
       <div className={styles.keywords}>
         {keywords.map((k) => (

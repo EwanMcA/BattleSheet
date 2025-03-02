@@ -19,10 +19,8 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1",
+          "Critical Wound: -3 AP"
         ]
       }
     ],
@@ -37,11 +35,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Volley Fire",
         "description": "While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit."
@@ -51,14 +57,14 @@
         "description": "Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "GRENADES",
       "CADRE",
       "FIREBLADE",
-      "T\u2019AU",
-      "EMPIRE"
+      "T\u2019AU EMPIRE"
     ]
   },
   {
@@ -103,38 +109,42 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deep Strike, Leader"
+        "name": "Deep Strike",
+        "description": null
       },
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
+        "name": "Leader",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Way of the Short Blade",
-        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll."
+        "description": "While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the  Wound roll."
       },
       {
         "name": "Puretide's Teachings",
         "description": "Once per battle round, you can target this model\u2019s unit with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
-      },
-      {
-        "name": "INDEPENDENT POWER",
-        "description": "If your army includes COMMANDER FARSIGHT, it cannot include any ETHEREAL units. If your army includes any ETHEREAL units, it cannot include COMMANDER FARSIGHT."
       }
     ],
+    "cost": "95",
     "keywords": [
       "VEHICLE",
       "WALKER",
       "FLY",
       "CHARACTER",
-      "EPIC",
-      "HERO",
+      "EPIC HERO",
       "BATTLESUIT",
-      "COMMANDER",
-      "FARSIGHT"
+      "COMMANDER FARSIGHT",
+      "T\u2019AU EMPIRE"
     ]
   },
   {
@@ -157,14 +167,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "indirect",
+          "fire"
         ]
       },
       {
@@ -196,10 +201,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -211,10 +213,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -256,14 +255,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -278,7 +271,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -286,28 +279,33 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
-        "name": "Coldstar Commander:",
+        "name": "Coldstar Commander",
         "description": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
       },
       {
-        "name": "Battlesuit Support System:",
+        "name": "Battlesuit Support System",
         "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
       },
       {
-        "name": "Shield Generator:",
+        "name": "Shield Generator",
         "description": "The bearer has a 4+ invulnerable save."
       },
       {
-        "name": "Weapon Support System:",
+        "name": "Weapon Support System",
         "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "95",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -315,11 +313,7 @@
       "CHARACTER",
       "BATTLESUIT",
       "COMMANDER",
-      "IN",
-      "COLDSTAR",
-      "BATTLESUIT",
-      "T\u2019AU",
-      "EMPIRE"
+      "IN COLDSTAR BATTLESUIT"
     ]
   },
   {
@@ -342,14 +336,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "indirect fire"
         ]
       },
       {
@@ -381,10 +369,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -396,10 +381,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -431,14 +413,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -453,7 +429,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -461,11 +437,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Enforcer Commander",
         "description": "While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
@@ -483,6 +463,7 @@
         "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "80",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -527,10 +508,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -552,10 +530,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       }
     ],
@@ -570,7 +545,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -582,7 +557,15 @@
       {
         "name": "Stealth",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Agile Combatant",
         "description": "This model is eligible to shoot in a turn in which it Fell Back."
@@ -600,12 +583,12 @@
         "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
       }
     ],
+    "cost": "100",
     "keywords": [
       "INFANTRY",
       "FLY",
       "CHARACTER",
-      "EPIC",
-      "HERO",
+      "EPIC HERO",
       "BATTLESUIT",
       "COMMANDER",
       "SHADOWSUN"
@@ -631,10 +614,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          }
+          "assault"
         ]
       }
     ],
@@ -649,15 +629,27 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Infiltrators, Leader, Scouts"
+        "name": "Infiltrators",
+        "description": null
       },
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
+        "name": "Leader",
+        "description": null
       },
+      {
+        "name": "Scouts",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Structural Analyser",
         "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Wound roll."
@@ -665,24 +657,9 @@
       {
         "name": "Jammer Array",
         "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model."
-      },
-      {
-        "name": "Patient Hunter",
-        "description": null
-      },
-      {
-        "name": "Integrated Command Structure",
-        "description": null
-      },
-      {
-        "name": "Killing Blow",
-        "description": null
-      },
-      {
-        "name": "Markerlight Precision",
-        "description": null
       }
     ],
+    "cost": "60",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -713,20 +690,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
+      {
+        "name": "Leader",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Failure Is Not an Option",
-        "description": "While this model is leading a unit, models in that unit have the  Feel  No  Pain  5+ ability."
+        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
       },
       {
         "name": "Coordinated Leadership",
         "description": "At the end of your Command phase, roll one D6: on a 4+, you gain 1CP."
-      },
-      {
-        "name": "Hover Drone",
-        "description": "The bearer can FLY and has a Move characteristic of 10\"."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -753,14 +739,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "precision",
-            "description": null
-          }
+          "heavy",
+          "precision"
         ]
       },
       {
@@ -772,10 +752,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       }
     ],
@@ -790,7 +767,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -802,40 +779,27 @@
       {
         "name": "Stealth",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Precise Targeting",
         "description": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, you can re-roll the Hit roll."
-      },
-      {
-        "name": "Designer\u2019s Note",
-        "description": "The Firesight Marksman model and sniper drone models are treated as a single model for all rules purposes. All distances are measured to and from the Farsight Marksman model. The sniper drone models do not count as models for any rules purposes."
-      },
-      {
-        "name": "Patient Hunter",
-        "description": null
-      },
-      {
-        "name": "Integrated Command Structure",
-        "description": null
-      },
-      {
-        "name": "Killing Blow",
-        "description": null
       }
     ],
+    "cost": "70",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "MARKERLIGHT",
       "FIRESIGHT",
-      "TEAM",
-      "T\u2019AU",
-      "EMPIRE"
+      "TEAM"
     ]
   },
   {
@@ -858,10 +822,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          }
+          "assault"
         ]
       }
     ],
@@ -874,27 +835,56 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Infiltrators, Leader, Scouts 7\", Stealth"
+        "name": "Infiltrators",
+        "description": null
       },
       {
-        "name": "Ritual Butchery",
-        "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        "name": "Leader",
+        "description": null
       },
       {
-        "name": "Rites of Feasting",
-        "description": "While this model is leading a unit, models in that unit have the Feel No Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
+        "name": "Scouts 7\"",
+        "description": null
+      },
+      {
+        "name": "Stealth",
+        "description": null
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Hunter\u2019s Instincts",
+        "description": null
+      },
+      {
+        "name": "Skirmish Fighters",
+        "description": null
+      },
+      {
+        "name": "Guerrilla Ambushers",
+        "description": null
+      }
+    ],
+    "cost": "45",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -924,14 +914,8 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "blast",
-            "description": null
-          }
+          "assault",
+          "blast"
         ]
       },
       {
@@ -943,14 +927,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "precision",
-            "description": null
-          }
+          "heavy",
+          "precision"
         ]
       }
     ],
@@ -972,10 +950,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lance",
-            "description": null
-          }
+          "lance"
         ]
       },
       {
@@ -986,14 +961,11 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "extra attacks",
-            "description": null
-          }
+          "extra attacks"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Lone Operative",
         "description": null
@@ -1005,16 +977,20 @@
       {
         "name": "Stealth",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Advanced Scouting",
-        "description": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+        "description": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another  KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
       },
       {
         "name": "Fire and Fade",
         "description": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge."
       }
     ],
+    "cost": "90",
     "keywords": [
       "MOUNTED",
       "CHARACTER",
@@ -1042,10 +1018,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       }
     ],
@@ -1060,7 +1033,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -1076,16 +1049,11 @@
       {
         "name": "Stealth",
         "description": null
-      },
-      {
-        "name": "Trail Finding",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model\u2019s unit, if this model\u2019s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
-      },
-      {
-        "name": "Kroot Ambush",
-        "description": "After both players have deployed their armies, you can redeploy this model\u2019s unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "55",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1115,18 +1083,9 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "ANTI-INFANTRY",
-            "description": null
-          },
-          {
-            "name": "ASSAULT",
-            "description": null
-          },
-          {
-            "name": "HEAVY",
-            "description": null
-          }
+          "ANTI-INFANTRY",
+          "ASSAULT",
+          "HEAVY"
         ]
       },
       {
@@ -1138,10 +1097,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       }
     ],
@@ -1154,10 +1110,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -1170,7 +1123,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -1186,16 +1139,11 @@
       {
         "name": "Stealth",
         "description": null
-      },
-      {
-        "name": "War Leader",
-        "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
-      },
-      {
-        "name": "Root of Honour",
-        "description": "Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1225,40 +1173,45 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "[sustained hits 1]",
+          "[sustained hits 1]"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Inspirational Defiance",
+        "name": "Leader",
+        "description": null
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
+      {
+        "name": "Inspirational Defiance:",
         "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
       },
       {
-        "name": "Martial Warrior",
+        "name": "Martial Warrior:",
         "description": "Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:"
       },
       {
-        "name": "Direct Grace",
+        "name": "Direct Grace:",
         "description": "Fidelity has the [PRECISION] ability."
       },
       {
-        "name": "Forceful Strike",
+        "name": "Forceful Strike:",
         "description": "Fidelity has the [DEVASTATING WOUNDS] ability."
       },
       {
-        "name": "Whirling Stance",
+        "name": "Whirling Stance:",
         "description": "Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
-      "EPIC",
-      "HERO",
+      "EPIC HERO",
       "ETHEREAL",
       "AUN\u2019SHI"
     ]
@@ -1275,23 +1228,21 @@
     },
     "ranged": [],
     "melee": [],
-    "abilities": [
-      {
-        "name": "Invulnerable Save",
-        "description": "4+"
-      }
-    ],
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "",
     "keywords": []
   },
   {
-    "name": "Ethereal Guard",
+    "name": "ETHEREAL GUARD",
     "stats": {
-      "move": "N/A",
-      "toughness": "N/A",
+      "move": "",
+      "toughness": "",
       "save": "4+",
-      "wounds": "N/A",
-      "LD": "N/A",
-      "OC": "N/A"
+      "wounds": "",
+      "LD": "",
+      "OC": ""
     },
     "ranged": [],
     "melee": [
@@ -1314,11 +1265,14 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Lone Operative",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Duality Shield",
         "description": "Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save."
@@ -1332,10 +1286,12 @@
         "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
       }
     ],
+    "cost": "65",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
-      "EPIC HERO",
+      "EPIC",
+      "HERO",
       "ETHEREAL",
       "AUN\u2019VA",
       "T\u2019AU EMPIRE"
@@ -1361,14 +1317,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "indirect fire"
         ]
       },
       {
@@ -1400,10 +1350,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -1415,10 +1362,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          }
+          "melta 2"
         ]
       },
       {
@@ -1450,14 +1394,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -1472,7 +1410,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -1480,28 +1418,21 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
-      {
-        "name": "Crisis Commander",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1."
-      },
-      {
-        "name": "Battlesuit Support System",
-        "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
-      },
-      {
-        "name": "Shield Generator",
-        "description": "The bearer has a 4+ invulnerable save."
-      },
-      {
-        "name": "Weapon Support System",
-        "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "ds_abilities": [
+      {
+        "name": "Crisis Commander",
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a  Hit roll of 1."
+      }
+    ],
+    "cost": "80",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -1544,10 +1475,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -1559,14 +1487,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -1578,14 +1500,8 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "devastating wounds",
+          "heavy"
         ]
       },
       {
@@ -1597,10 +1513,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       },
       {
@@ -1612,14 +1525,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "assault",
+          "twin-linked"
         ]
       },
       {
@@ -1631,14 +1538,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "indirect fire",
+          "twin-linked"
         ]
       }
     ],
@@ -1653,32 +1554,37 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D3"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Armour Hunter",
+        "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
       },
       {
-        "name": "Armour Hunter:",
-        "description": "Each time this model makes an attack that targets a  MONSTER or VEHICLE, add 1 to the Hit roll."
-      },
-      {
-        "name": "Targeting Array:",
+        "name": "Targeting Array",
         "description": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving its attacks."
       },
       {
-        "name": "XV02 Pilot Battlesuit:",
+        "name": "XV02 Pilot Battlesuit",
         "description": "In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
       },
       {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
+        "name": "Damaged: 1-5 WOUNDS REMAINING",
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "140",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -1707,14 +1613,8 @@
         "ap": "0",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-vehicle",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "anti-vehicle",
+          "devastating wounds"
         ]
       },
       {
@@ -1726,10 +1626,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       }
     ],
@@ -1744,7 +1641,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -1752,11 +1649,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Eclipse Field Generator",
         "description": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
@@ -1770,6 +1671,7 @@
         "description": "Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1."
       }
     ],
+    "cost": "80",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -1801,10 +1703,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          }
+          "assault"
         ]
       },
       {
@@ -1816,10 +1715,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -1831,14 +1727,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "indirect fire",
+          "twin-linked"
         ]
       }
     ],
@@ -1850,32 +1740,49 @@
         "strength": "3",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          ""
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "Integrated Command",
+        "description": null
       },
       {
-        "name": "Breach and Clear",
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Markerlight Precision",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Breach and Clear:",
         "description": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll."
       },
       {
-        "name": "DS8 Support Turret",
+        "name": "DS8 Support Turret:",
         "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon."
       }
     ],
+    "cost": "100",
     "keywords": [
       "INFANTRY",
       "BATTLELINE",
       "GRENADES",
       "MARKERLIGHT",
-      "FIRE",
-      "WARRIOR",
-      "BREACHER",
-      "TEAM"
+      "FIRE WARRIOR",
+      "BREACHER TEAM"
     ]
   },
   {
@@ -1908,10 +1815,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -1923,10 +1827,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       },
       {
@@ -1938,10 +1839,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire, twin-linked",
-            "description": null
-          }
+          "indirect fire",
+          "twin-linked"
         ]
       }
     ],
@@ -1956,7 +1855,14 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Suppression Volley",
         "description": "In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
@@ -1966,6 +1872,7 @@
         "description": "In your Movement phase, if this unit Remains Stationary, until the start of your next Movement phase, its Fire Warrior Shas\u2019ui model is equipped with the support turret missile system weapon."
       }
     ],
+    "cost": "75",
     "keywords": [
       "INFANTRY",
       "BATTLELINE",
@@ -2007,10 +1914,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "One Shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "[one shot]"
         ]
       },
       {
@@ -2021,7 +1925,9 @@
         "strength": "5",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          "[ assault , twin-linked ]"
+        ]
       },
       {
         "name": "Smart missile system",
@@ -2032,10 +1938,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Indirect Fire",
-            "description": null
-          }
+          "[ indirect fire ]"
         ]
       }
     ],
@@ -2050,22 +1953,30 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Rapid Deployment",
         "description": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
       }
     ],
+    "cost": "85",
     "keywords": [
       "VEHICLE",
       "FLY",
       "TRANSPORT",
-      "DEDICATED",
-      "TRANSPORT",
+      "DEDICATED TRANSPORT",
       "DEVILFISH"
     ]
   },
@@ -2089,38 +2000,13 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
-        ]
-      },
-      {
-        "name": "Drone defenders",
-        "range": "20\"",
-        "attacks": "8",
-        "bs": "5+",
-        "strength": "5",
-        "ap": "0",
-        "damage": "1",
-        "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "assault",
+          "twin-linked"
         ]
       }
     ],
     "melee": [],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
@@ -2128,20 +2014,24 @@
       {
         "name": "Firing Deck 11",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Droneport",
         "description": "Each time this FORTIFICATION is selected to shoot, its drone defender\u2019s weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
       },
       {
         "name": "Fortification",
-        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.  Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
       },
       {
         "name": "Tidewall Cover",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
       }
     ],
+    "cost": "85",
     "keywords": [
       "FORTIFICATION",
       "VEHICLE",
@@ -2171,14 +2061,8 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       },
       {
@@ -2190,19 +2074,13 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
     "melee": [],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
@@ -2210,16 +2088,20 @@
       {
         "name": "Firing Deck 11",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
-        "name": "Fortification",
+        "name": "Fortification:",
         "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
       },
       {
-        "name": "Tidewall Cover",
+        "name": "Tidewall Cover:",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
       }
     ],
+    "cost": "90",
     "keywords": [
       "FORTIFICATION",
       "VEHICLE",
@@ -2241,15 +2123,18 @@
     },
     "ranged": [],
     "melee": [],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "5+"
+        "name": "Deadly Demise D3",
+        "description": null
       },
       {
-        "name": "CORE",
-        "description": "Deadly Demise D3, Firing Deck 20"
-      },
+        "name": "Firing Deck 20",
+        "description": null
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Fortification",
         "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
@@ -2261,16 +2146,9 @@
       {
         "name": "Tidewall Defence Platform",
         "description": "If equipped with a Tidewall defence platform, this FORTIFICATION has a Wounds characteristic of 15."
-      },
-      {
-        "name": "TRANSPORT",
-        "description": "This model has a transport capacity of 11 T\u2019AU EMPIRE INFANTRY models. It cannot transport BATTLESUIT, KROOT or VESPID STINGWINGS models. If this model is equipped with a Tidewall defence platform, it has a transport capacity of 22 T\u2019au Infantry models instead."
-      },
-      {
-        "name": "DETACHMENT ABILITY",
-        "description": "Patient Hunter Integrated Command Structure Killing Blow"
       }
     ],
+    "cost": "85",
     "keywords": [
       "FORTIFICATION",
       "VEHICLE",
@@ -2300,10 +2178,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -2315,14 +2190,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "melta 2",
+          "twin-linked"
         ]
       },
       {
@@ -2334,10 +2203,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -2349,28 +2215,28 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
     "melee": [],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
-        "name": "Sentinel Protocols:",
+        "name": "Sentinel Protocols",
         "description": "Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
       },
       {
-        "name": "Reinforced Cover:",
+        "name": "Reinforced Cover",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
       },
       {
-        "name": "Fortification:",
-        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.  Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        "name": "Fortification",
+        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
       }
     ],
+    "cost": "50",
     "keywords": [
       "FORTIFICATION",
       "VEHICLE",
@@ -2382,7 +2248,7 @@
   {
     "name": "Remote Sensor Tower",
     "stats": {
-      "move": "\\-",
+      "move": " - ",
       "toughness": "8",
       "save": "4+",
       "wounds": "4",
@@ -2391,20 +2257,23 @@
     },
     "ranged": [],
     "melee": [],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
-        "name": "Orbital Comms Array (Aura)",
+        "name": "Orbital Comms Array (Aura):",
         "description": "While a friendly T\u2019AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
       },
       {
-        "name": "Reinforced Cover",
+        "name": "Reinforced Cover:",
         "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
       },
       {
-        "name": "Fortification",
-        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        "name": "Fortification:",
+        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:  That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.  Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
       }
     ],
+    "cost": "50",
     "keywords": [
       "FORTIFICATION",
       "REMOTE",
@@ -2432,14 +2301,8 @@
         "ap": "-4",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "heavy",
+          "devastating wounds"
         ]
       },
       {
@@ -2451,10 +2314,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -2466,10 +2326,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -2481,10 +2338,7 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -2496,14 +2350,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "indirect fire",
+          "twin-linked"
         ]
       }
     ],
@@ -2515,19 +2363,30 @@
         "strength": "6",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          ""
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
+      {
+        "name": "Feel No Pain 4+",
+        "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Advanced Armour",
-        "description": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
-      },
-      {
-        "name": "Weapon Support System",
-        "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        "description": null
       }
     ],
+    "cost": "90/180/300",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -2578,15 +2437,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deep Strike"
-      },
+        "name": "Deep Strike",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Fireknife",
         "description": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead."
@@ -2596,6 +2459,7 @@
         "description": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "130",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -2635,14 +2499,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -2657,15 +2515,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deep Strike"
-      },
+        "name": "Deep Strike",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Starscythe",
         "description": "Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1."
@@ -2675,6 +2537,7 @@
         "description": "This unit is eligible to shoot in a turn in which it Fell Back."
       }
     ],
+    "cost": "110",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -2704,10 +2567,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 2"
         ]
       }
     ],
@@ -2722,20 +2582,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
-        "name": "Sunforge:",
+        "name": "Sunforge",
         "description": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
       }
     ],
+    "cost": "150",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -2775,10 +2640,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -2790,10 +2652,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          }
+          "melta 2"
         ]
       },
       {
@@ -2805,10 +2664,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -2820,14 +2676,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "melta 2",
+          "twin-linked"
         ]
       },
       {
@@ -2839,18 +2689,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores",
-            "description": "cover"
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -2862,56 +2703,49 @@
         "strength": "6",
         "ap": "0",
         "damage": "2",
-        "abilities": []
+        "abilities": [
+          ""
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deadly Demise D3, Infiltrators, Lone Operative, Stealth"
-      },
-      {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
-      {
-        "name": "Stealth Drones",
-        "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.  Designer\u2019s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used."
-      },
-      {
-        "name": "Battlesuit Support System",
-        "description": "The bearer is eligible to shoot in a turn in which it Fell Back but it loses the SMOKE keyword."
-      },
-      {
-        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Patient Hunter",
+        "name": "Deadly Demise D3",
         "description": null
       },
       {
-        "name": "Integrated Command Structure",
+        "name": "Infiltrators",
         "description": null
       },
       {
-        "name": "Killing Blow",
+        "name": "Lone Operative",
         "description": null
       },
       {
-        "name": "Bonded Heroes",
+        "name": "Stealth",
         "description": null
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Stealth Drones:",
+        "description": "Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0. "
+      }
+    ],
+    "cost": "160",
     "keywords": [
       "VEHICLE",
       "WALKER",
       "FLY",
       "SMOKE",
       "BATTLESUIT",
-      "GHOSTKEEL",
-      "T\u2019AU",
-      "EMPIRE"
+      "GHOSTKEEL"
     ]
   },
   {
@@ -2944,10 +2778,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -2959,14 +2790,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -2978,14 +2803,8 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "heavy",
+          "devastating wounds"
         ]
       },
       {
@@ -2997,10 +2816,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       },
       {
@@ -3012,10 +2828,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -3027,10 +2840,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "indirect fire"
         ]
       }
     ],
@@ -3045,15 +2855,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D3"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Armour Hunter",
         "description": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
@@ -3063,10 +2877,11 @@
         "description": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
       },
       {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
+        "name": "Damaged: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "145",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -3094,10 +2909,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Blast",
-            "description": null
-          }
+          "Blast"
         ]
       },
       {
@@ -3109,10 +2921,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Pistol",
-            "description": null
-          }
+          "Pistol"
         ]
       },
       {
@@ -3124,10 +2933,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "Rapid Fire 1"
         ]
       },
       {
@@ -3152,7 +2958,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 7\"",
         "description": null
@@ -3164,17 +2970,17 @@
       {
         "name": "Fieldcraft",
         "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
-      },
-      {
-        "name": "BODYGUARD",
-        "description": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "10 models | 65 | 20 models | 130",
     "keywords": [
       "INFANTRY",
       "GRENADES",
       "KROOT",
-      "CARNIVORES"
+      "CARNIVORES",
+      "T\u2019AU EMPIRE"
     ]
   },
   {
@@ -3189,7 +2995,10 @@
     },
     "ranged": [],
     "melee": [],
-    "abilities": [],
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "",
     "keywords": []
   },
   {
@@ -3212,14 +3021,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -3231,10 +3034,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       },
       {
@@ -3246,10 +3046,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -3261,18 +3058,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-vehicle 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "anti-vehicle 4+",
+          "devastating wounds",
+          "heavy"
         ]
       },
       {
@@ -3284,10 +3072,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       }
     ],
@@ -3320,7 +3105,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -3328,16 +3113,11 @@
       {
         "name": "Stealth",
         "description": null
-      },
-      {
-        "name": "Bounty Hunters",
-        "description": "At the start of the battle, select one unit from your opponent\u2019s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
-      },
-      {
-        "name": "Pech\u2019ra",
-        "description": "Ranged weapons equipped by the bearer\u2019s unit have the [IGNORES COVER] ability."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "85",
     "keywords": [
       "INFANTRY",
       "KROOT",
@@ -3367,11 +3147,18 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Scouts, Stealth"
+        "name": "Scouts",
+        "description": "7\""
       },
+      {
+        "name": "Stealth",
+        "description": null
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Loping Pounce",
         "description": "At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
@@ -3381,6 +3168,7 @@
         "description": "While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
       }
     ],
+    "cost": "5 models | 40 | 10 models | 80",
     "keywords": [
       "BEASTS",
       "KROOT",
@@ -3407,14 +3195,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "assault",
+          "pistol"
         ]
       }
     ],
@@ -3427,10 +3209,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Lance",
-            "description": null
-          }
+          "Lance"
         ]
       },
       {
@@ -3441,23 +3220,25 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "EXTRA ATTACKS",
-            "description": "sustained hits 1"
-          }
+          "EXTRA ATTACKS",
+          "sustained hits 1"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Scouts 7\""
-      },
+        "name": "Scouts 7\"",
+        "description": null
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Kroot Linebreakers",
         "description": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds. If one or more enemy models are destroyed as a result of these mortal wounds, that enemy unit must take a Battle-shock test."
       }
     ],
+    "cost": "3 models | 95 | 6 models | 190",
     "keywords": [
       "MOUNTED",
       "GRENADES",
@@ -3486,10 +3267,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -3501,10 +3279,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast, heavy",
-            "description": null
-          }
+          "blast",
+          "heavy"
         ]
       }
     ],
@@ -3526,23 +3302,48 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "EXTRA ATTACKS",
-            "description": null
-          }
+          "EXTRA ATTACKS"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 7\"",
         "description": null
-      },
-      {
-        "name": "Kroot Packmates",
-        "description": "Once per turn, in your opponent\u2019s Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [
+      {
+        "name": "Kroot Packmates:",
+        "description": "Once per turn, in your opponent\u2019s Shooting phase , when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+      },
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Hunter\u2019s Instincts",
+        "description": null
+      },
+      {
+        "name": "Skirmish Fighters",
+        "description": null
+      },
+      {
+        "name": "Guerrilla Ambushers",
+        "description": null
+      }
+    ],
+    "cost": "1 model 40\n2 models 60\n3 models 90",
     "keywords": [
       "MOUNTED",
       "GRENADES",
@@ -3580,7 +3381,9 @@
         "strength": "7",
         "ap": "-1",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          "heavy"
+        ]
       },
       {
         "name": "Ion rifle \u2013 overcharge",
@@ -3591,10 +3394,8 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous",
+          "heavy"
         ]
       },
       {
@@ -3616,10 +3417,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -3631,14 +3429,8 @@
         "ap": "-4",
         "damage": "3",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "devastating wounds",
+          "heavy"
         ]
       },
       {
@@ -3650,14 +3442,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-vehicle 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "anti-vehicle 4+",
+          "devastating wounds"
         ]
       },
       {
@@ -3682,28 +3468,41 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 7\"",
         "description": null
-      },
-      {
-        "name": "For the Greater Good",
-        "description": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit\u2019s Spotted unit."
-      },
-      {
-        "name": "Grav-inhibitor Drone",
-        "description": "Subtract 2 from Charge rolls made for any enemy unit that declares a charge against the bearer\u2019s unit (this is not cumulative with any other reductions to that Charge roll)."
-      },
-      {
-        "name": "Pulse Accelerator Drone",
-        "description": "Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer\u2019s unit."
-      },
-      {
-        "name": "Recon Drone",
-        "description": "The bearer is equipped with 1 drone burst cannon and the bearer\u2019s unit has the Infiltrators ability."
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      },
+      {
+        "name": "Target Uploaded",
+        "description": "Once per turn, when using the Greater Good ability, you can select this unit to be an Observer unit for a second time. When doing so, you can change which enemy unit is this unit\u2019s Spotted unit."
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Markerlight Precision",
+        "description": null
+      }
+    ],
+    "cost": "90",
     "keywords": [
       "INFANTRY",
       "GRENADES",
@@ -3742,10 +3541,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 4"
         ]
       },
       {
@@ -3757,10 +3553,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "One Shot"
         ]
       },
       {
@@ -3772,14 +3565,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          },
-          {
-            "name": "assault",
-            "description": null
-          }
+          "twin-linked",
+          "assault"
         ]
       }
     ],
@@ -3794,7 +3581,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
@@ -3802,12 +3589,21 @@
       {
         "name": "Scouts 9\"",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Drone Harassment Tactics",
         "description": "At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
       }
     ],
+    "cost": "1 model 60\n2 models 120\n3 models 180",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -3854,10 +3650,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -3869,14 +3662,8 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "hazardous",
+          "twin-linked"
         ]
       },
       {
@@ -3888,10 +3675,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "One Shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       }
     ],
@@ -3906,20 +3690,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise D3",
+        "name": "Deadly Demise",
+        "description": "D3"
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Ground Strike Fighter",
-        "description": "Each time this model makes a ranged attack that targets an enemy unit that cannot  FLY , add 1 to the  Hit  roll."
+        "description": "Each time this model makes a ranged attack that targets an enemy unit that cannot FLY , add 1 to the Hit roll."
       },
       {
         "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the  Hit  roll."
+        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "cost": "170",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -3969,10 +3762,7 @@
         "ap": "-3",
         "damage": "4",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -3984,14 +3774,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "melta 2",
+          "twin-linked"
         ]
       },
       {
@@ -4003,10 +3787,7 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4018,14 +3799,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "indirect fire",
+          "twin-linked"
         ]
       }
     ],
@@ -4040,11 +3815,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Battlesuit Support System",
         "description": "The bearer is eligible to shoot in a turn in which it Fell Back."
@@ -4058,6 +3841,7 @@
         "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "190",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -4096,10 +3880,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4111,14 +3892,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "assault",
+          "twin-linked"
         ]
       },
       {
@@ -4130,10 +3905,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "indirect fire"
         ]
       }
     ],
@@ -4148,11 +3920,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D3"
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Velocity Tracker",
         "description": "Each time this model makes a ranged attack that targets a unit that can FLY, you can re-roll the Hit roll."
@@ -4162,22 +3942,11 @@
         "description": "Each time this unit is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
       },
       {
-        "name": "DAMAGED",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Patient Hunter",
-        "description": null
-      },
-      {
-        "name": "Integrated Command Structure",
-        "description": null
-      },
-      {
-        "name": "Killing Blow",
-        "description": null
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "cost": "140",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -4217,10 +3986,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 2"
         ]
       }
     ],
@@ -4235,7 +4001,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -4243,11 +4009,19 @@
       {
         "name": "Stealth",
         "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
       },
       {
         "name": "Forward Observers",
         "description": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Battlesuit Support System",
         "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
@@ -4255,8 +4029,33 @@
       {
         "name": "Homing Beacon",
         "description": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer\u2019s unit and not within 9\" of any enemy units."
+      },
+      {
+        "name": "Designer\u2019s Note",
+        "description": "Place a Homing Beacon token next to this unit, removing it once this ability is used."
+      },
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Bonded Heroes",
+        "description": null
+      },
+      {
+        "name": "Markerlight Precision",
+        "description": null
       }
     ],
+    "cost": "60",
     "keywords": [
       "INFANTRY",
       "FLY",
@@ -4284,14 +4083,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "blast",
+          "heavy"
         ]
       },
       {
@@ -4303,10 +4096,7 @@
         "ap": "-4",
         "damage": "D6+2",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -4318,10 +4108,7 @@
         "ap": "-6",
         "damage": "12",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -4333,10 +4120,7 @@
         "ap": "-2",
         "damage": "4",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -4348,14 +4132,8 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "blast",
+          "heavy"
         ]
       },
       {
@@ -4367,22 +4145,10 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "blast",
+          "heavy",
+          "indirect fire",
+          "twin-linked"
         ]
       },
       {
@@ -4394,14 +4160,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "heavy",
+          "twin-linked"
         ]
       },
       {
@@ -4413,18 +4173,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "heavy",
+          "indirect fire",
+          "twin-linked"
         ]
       },
       {
@@ -4436,18 +4187,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -4459,18 +4201,24 @@
         "strength": "8",
         "ap": "-1",
         "damage": "2",
-        "abilities": []
+        "abilities": [
+          ""
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D6+2"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Heavy Walker",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
@@ -4482,23 +4230,15 @@
       {
         "name": "Titan-killer",
         "description": "Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
-      },
-      {
-        "name": "INVULNERABLE SAVE",
-        "description": "4+"
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, subtract 3 from this model\u2019s Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "400",
     "keywords": [
       "VEHICLE",
       "WALKER",
       "TITANIC",
       "TOWERING",
-      "STORMSURGE",
-      "T\u2019AU EMPIRE"
+      "STORMSURGE"
     ]
   },
   {
@@ -4531,10 +4271,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4546,10 +4283,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -4561,10 +4295,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4576,14 +4307,8 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "hazardous",
+          "twin-linked"
         ]
       }
     ],
@@ -4598,24 +4323,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deadly Demise D3"
-      },
+        "name": "Deadly Demise",
+        "description": "D3"
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Pulse Bombs",
         "description": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound."
-      },
-      {
-        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "160",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -4644,7 +4370,9 @@
         "strength": "5",
         "ap": "-2",
         "damage": "2",
-        "abilities": []
+        "abilities": [
+          "assault"
+        ]
       },
       {
         "name": "Neutron grenade launcher",
@@ -4655,14 +4383,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "ANTI-INFANTRY 3+",
-            "description": null
-          },
-          {
-            "name": "BLAST",
-            "description": null
-          }
+          "ANTI-INFANTRY 3+",
+          "BLAST"
         ]
       },
       {
@@ -4674,10 +4396,7 @@
         "ap": "-4",
         "damage": "3",
         "abilities": [
-          {
-            "name": "DEVASTATING WOUNDS",
-            "description": null
-          }
+          "DEVASTATING WOUNDS"
         ]
       },
       {
@@ -4689,14 +4408,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "IGNORES COVER",
-            "description": null
-          },
-          {
-            "name": "TORRENT",
-            "description": null
-          }
+          "IGNORES COVER",
+          "TORRENT"
         ]
       }
     ],
@@ -4711,20 +4424,24 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
         "name": "Airborne Agility",
         "description": "At the end of your opponent\u2019s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
       },
       {
         "name": "Oversight Drone",
-        "description": "Once per battle, when the bearer\u2019s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability. Designer\u2019s Note: Place an Oversight Drone token next to the bearer, removing it once this ability has been used."
+        "description": "Once per battle, when the bearer\u2019s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability."
       }
     ],
+    "cost": "5 models | 65 | 10 models | 130",
     "keywords": [
       "INFANTRY",
       "FLY",
@@ -4772,10 +4489,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -4797,10 +4511,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -4812,14 +4523,8 @@
         "ap": "-5",
         "damage": "12",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
@@ -4834,33 +4539,40 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D6+2"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
-      {
-        "name": "Titan Hunter",
-        "description": "This model\u2019s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
-      },
-      {
-        "name": "Damaged: 1-6 WOUNDS REMAINING",
-        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "ds_abilities": [
+      {
+        "name": "Titan Hunter",
+        "description": "This model\u2019s twin heavy rail cannon and seeker missiles have the ANTI-TITANIC 3+ ability while targeting a unit within half range."
+      },
+      {
+        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "INVULNERABLE SAVE",
+        "description": "5+"
+      }
+    ],
+    "cost": "315",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
       "FLY",
       "AX-1-0",
       "TIGER",
-      "SHARK",
-      "T\u2019AU",
-      "EMPIRE"
+      "SHARK"
     ]
   },
   {
@@ -4883,10 +4595,7 @@
         "ap": "-5",
         "damage": "12",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -4898,10 +4607,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -4913,14 +4619,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -4952,10 +4652,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       }
     ],
@@ -4967,18 +4664,28 @@
         "strength": "6",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          ""
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "3D6"
+        "name": "Deadly Demise 3D6",
+        "description": null
       },
       {
         "name": "Hover",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Aggressive Deployment",
         "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
@@ -4988,6 +4695,7 @@
         "description": "Each time you target this model with a Stratagem, you must spend three times that Stratagem\u2019s stated CP cost to do so."
       }
     ],
+    "cost": "2100",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -5028,10 +4736,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5043,10 +4748,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "3"
-          }
+          "melta",
+          "3"
         ]
       },
       {
@@ -5058,14 +4761,8 @@
         "ap": "-5",
         "damage": "16",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "devastating wounds",
+          "heavy"
         ]
       },
       {
@@ -5087,10 +4784,8 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-infantry",
-            "description": "2+"
-          }
+          "anti-infantry",
+          "2+"
         ]
       },
       {
@@ -5102,10 +4797,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "indirect fire"
         ]
       },
       {
@@ -5117,10 +4809,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5132,14 +4821,8 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       }
     ],
@@ -5154,43 +4837,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "5+"
-      },
-      {
-        "name": "CORE",
-        "description": null
-      },
-      {
-        "name": "Deadly",
-        "description": null
-      },
-      {
-        "name": "Demise",
+        "name": "Deadly Demise",
         "description": "D6+3"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
+        "name": "For the Greater Good",
         "description": null
-      },
-      {
-        "name": "For",
-        "description": null
-      },
-      {
-        "name": "the",
-        "description": null
-      },
-      {
-        "name": "Greater",
-        "description": null
-      },
-      {
-        "name": "Good",
-        "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Coordinated Strike",
         "description": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
@@ -5198,12 +4857,9 @@
       {
         "name": "Super-heavy Walker",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
-      },
-      {
-        "name": "DAMAGED",
-        "description": "1-10 WOUNDS REMAINING While this model has 1-10 wounds remaining, subtract 5 from this model\u2019s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "790",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -5211,9 +4867,7 @@
       "TOWERING",
       "TA\u2019UNAR",
       "SUPREMACY",
-      "ARMOUR",
-      "T\u2019AU",
-      "EMPIRE"
+      "ARMOUR"
     ]
   },
   {
@@ -5256,10 +4910,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -5271,10 +4922,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5286,14 +4934,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -5315,10 +4957,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -5330,14 +4969,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-fly",
-            "description": "3+"
-          },
-          {
-            "name": "blast",
-            "description": null
-          }
+          "anti-fly 3+",
+          "blast"
         ]
       },
       {
@@ -5359,10 +4992,7 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "devastating",
-            "description": "wounds"
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -5374,14 +5004,24 @@
         "strength": "6",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          "Melee"
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D6+2"
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Strafing Run",
         "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot FLY. That enemy unit must take a Battle-shock test."
@@ -5393,8 +5033,21 @@
       {
         "name": "DAMAGED: 1-6 WOUNDS REMAINING",
         "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
       }
     ],
+    "cost": "325",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -5406,7 +5059,7 @@
   {
     "name": "Barracuda",
     "stats": {
-      "move": "20+\"",
+      "move": "20",
       "toughness": "10",
       "save": "3+",
       "wounds": "14",
@@ -5433,10 +5086,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -5448,10 +5098,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5463,14 +5110,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -5502,10 +5143,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -5527,10 +5165,7 @@
         "ap": "-5",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -5542,43 +5177,34 @@
         "strength": "6",
         "ap": "0",
         "damage": "1",
-        "abilities": []
+        "abilities": [
+          "Melee"
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "D3"
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Agile Dogfighter",
         "description": "Each time an attack targets this model, subtract 1 from the Hit roll."
       },
       {
-        "name": "Damaged: 1-5 Wounds Remaining",
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "One Shot:",
-        "description": "The bearer can only shoot with this weapon once per battle."
-      },
-      {
-        "name": "Patient Hunter",
-        "description": null
-      },
-      {
-        "name": "Integrated Command Structure",
-        "description": null
-      },
-      {
-        "name": "Killing Blow",
-        "description": null
       }
     ],
+    "cost": "220",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -5606,14 +5232,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "indirect fire"
         ]
       },
       {
@@ -5645,10 +5265,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -5660,10 +5277,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -5695,14 +5309,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -5717,32 +5325,37 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
-        "name": "Turbo-jets:",
+        "name": "Turbo-jets",
         "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
       },
       {
-        "name": "Battlesuit Support System:",
+        "name": "Battlesuit Support System",
         "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
       },
       {
-        "name": "Shield Generator:",
+        "name": "Shield Generator",
         "description": "The bearer has a 4+ invulnerable save."
       },
       {
-        "name": "Weapon Support System:",
+        "name": "Weapon Support System",
         "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "200 / 400",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -5771,10 +5384,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "Hooked",
-            "description": "Each time the bearer makes an attack with this weapon that targets a MONSTER or VEHICLE unit, if a hit is scored, until the end of the turn, if the bearer selects that unit as a target of a charge , add 2 to Charge rolls made for the bearer and enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer."
-          }
+          "hooked"
         ]
       },
       {
@@ -5786,10 +5396,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       },
       {
@@ -5801,10 +5408,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -5817,10 +5421,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "extra attacks",
-            "description": null
-          }
+          "extra attacks"
         ]
       },
       {
@@ -5833,20 +5434,15 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 7\"",
         "description": null
-      },
-      {
-        "name": "Loping Stride",
-        "description": "Each time this model Advances , do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
-      },
-      {
-        "name": "Baggage Harness (Aura)",
-        "description": "While a friendly KROOT unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "100",
     "keywords": [
       "MONSTER",
       "KROOT",
@@ -5884,10 +5480,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -5902,28 +5495,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [
       {
-        "name": "Drone Escort",
-        "description": "Once per turn, in your opponent\u2019s  Shooting phase , when a friendly  T\u2019AU   EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+        "name": "Drone Escort:",
+        "description": "Once per turn, in your opponent\u2019s Shooting phase , when a friendly T\u2019AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, the unit using this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
       },
       {
-        "name": "Markerlight",
-        "description": "The bearer has the  MARKERLIGHT keyword."
-      },
-      {
-        "name": "Patient Hunter",
-        "description": null
-      },
-      {
-        "name": "Integrated Command Structure",
-        "description": null
-      },
-      {
-        "name": "Killing Blow",
-        "description": null
+        "name": "Markerlight:",
+        "description": "The bearer has the MARKERLIGHT keyword."
       }
     ],
+    "cost": "45",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -5952,10 +5536,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Rapid Fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       }
     ],
@@ -5968,10 +5549,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Extra Attacks",
-            "description": null
-          }
+          "extra attacks",
+          "[LANCE]"
         ]
       },
       {
@@ -5984,7 +5563,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 7\"",
         "description": null
@@ -5992,17 +5571,37 @@
       {
         "name": "Stealth",
         "description": null
-      },
-      {
-        "name": "Thunderous Pounce",
-        "description": "Each time this unit ends a Charge move , until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      },
+      {
+        "name": "Hunter\u2019s Instincts",
+        "description": null
+      },
+      {
+        "name": "Skirmish Fighters",
+        "description": null
+      }
+    ],
+    "cost": "110",
     "keywords": [
-      "Mounted",
-      "Kroot",
-      "Knarloc",
-      "Riders"
+      "MOUNTED",
+      "KROOT",
+      "KNARLOC",
+      "RIDERS"
     ]
   },
   {
@@ -6048,28 +5647,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deadly Demise D6+2, Hover"
+        "name": "Deadly Demise",
+        "description": "D6+2"
       },
       {
-        "name": "FACTION",
-        "description": "For the Greater Good"
-      },
-      {
-        "name": "Jet Pack Insertion",
-        "description": "At the end of your opponent\u2019s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
-      },
-      {
-        "name": "DAMAGED: 1-9 WOUNDS REMAINING",
-        "description": "While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
-      },
-      {
-        "name": "TRANSPORT",
-        "description": "This model has a transport capacity of 48 T\u2019AU EMPIRE INFANTRY models. This model can also transport up to 6 BATTLESUIT models (these models take up the space of a number of models equal to their Wounds characteristic, e.g. a Battlesuit with a Wounds characteristic of 8 would take up the space of 8 models). This model cannot transport KROOT or VESPID STINGWINGS models."
+        "name": "Hover",
+        "description": null
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Jet Pack Insertion",
+        "description": "At the end of your opponent\u2019s Movement phase , one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability."
+      }
+    ],
+    "cost": "275",
     "keywords": [
       "VEHICLE",
       "AIRCRAFT",
@@ -6100,10 +5700,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "Blast",
-            "description": null
-          }
+          "blast"
         ]
       }
     ],
@@ -6115,18 +5712,25 @@
         "strength": "6",
         "ap": "0",
         "damage": "2",
-        "abilities": []
+        "abilities": [
+          "Battlesuit fists",
+          "Melee"
+        ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6"
-      },
+        "name": "Deadly Demise D6",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Battlesuit Support System",
         "description": "This model is eligible to shoot in a turn in which it Fell Back."
@@ -6138,12 +5742,9 @@
       {
         "name": "Weapon Support System",
         "description": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "cost": "200",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -6172,10 +5773,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "One Shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "One shot"
         ]
       },
       {
@@ -6187,10 +5785,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "Twin-linked"
         ]
       }
     ],
@@ -6205,7 +5800,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Infiltrators",
         "description": null
@@ -6213,16 +5808,37 @@
       {
         "name": "Stealth",
         "description": null
-      },
-      {
-        "name": "Aerial Disengagement",
-        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
       }
     ],
+    "ds_abilities": [
+      {
+        "name": "Aerial Disengagement",
+        "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "One Shot",
+        "description": "The bearer can only shoot with this weapon once per battle."
+      },
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      }
+    ],
+    "cost": "160",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -6252,14 +5868,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "assault",
+          "twin-linked"
         ]
       }
     ],
@@ -6274,19 +5884,33 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
       }
     ],
+    "faction_abilities": [],
+    "ds_abilities": [
+      {
+        "name": "Patient Hunter",
+        "description": null
+      },
+      {
+        "name": "Integrated Command Structure",
+        "description": null
+      },
+      {
+        "name": "Killing Blow",
+        "description": null
+      }
+    ],
+    "cost": "4 models | 70 | 8 models | 140 | 12 models | 210",
     "keywords": [
       "DRONE",
       "FLY",
       "TACTICAL",
-      "DRONES",
-      "T\u2019AU",
-      "EMPIRE"
+      "DRONES"
     ]
   },
   {
@@ -6309,10 +5933,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "Rapid Fire 1"
         ]
       }
     ],
@@ -6327,7 +5948,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
@@ -6335,16 +5956,21 @@
       {
         "name": "Infiltrators",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "High-intensity Markerlights",
         "description": "Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
       }
     ],
+    "cost": "2 models | 80 | 4 models | 160",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -6372,10 +5998,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -6387,10 +6010,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -6442,10 +6062,7 @@
         "ap": "-4",
         "damage": "3",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -6457,10 +6074,7 @@
         "ap": "-4",
         "damage": "3",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -6484,7 +6098,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
@@ -6492,16 +6106,21 @@
       {
         "name": "Scouts 9\"",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "For the Greater Good",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Outflank",
         "description": "When this unit arrives from Strategic Reserves, it can be set up within your opponent\u2019s deployment zone (all other restrictions still apply)."
       }
     ],
+    "cost": "60",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -6529,10 +6148,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "4"
-          }
+          "melta 4"
         ]
       },
       {
@@ -6554,10 +6170,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -6572,11 +6185,23 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
+      {
+        "name": "Deep Strike",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "For the Greater Good",
+        "description": null
+      },
       {
         "name": "Photon Casters",
         "description": "In your Shooting phase, after this unit has shot, if an enemy INFANTRY unit was hit by one or more of those attacks, until the end of your opponent\u2019s next turn, that enemy unit is stunned. While a unit is stunned, subtract 2 from that unit\u2019s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Battlesuit Support System",
         "description": "The bearer\u2019s unit is eligible to shoot in a turn in which it Fell Back, but when doing so only models equipped with this wargear can make ranged attacks."
@@ -6590,6 +6215,7 @@
         "description": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
       }
     ],
+    "cost": "55",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -6629,10 +6255,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -6644,14 +6267,8 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -6663,14 +6280,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -6685,15 +6296,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "5+"
-      },
+        "name": "Deadly Demise D6",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6"
-      },
+        "name": "For the Greater Good",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Battlesuit Support System",
         "description": "This model is eligible to shoot in a turn in which it Fell Back."
@@ -6705,12 +6320,9 @@
       {
         "name": "Weapon Support System",
         "description": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "210",
     "keywords": [
       "VEHICLE",
       "WALKER",

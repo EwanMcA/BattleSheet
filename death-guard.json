@@ -19,18 +19,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "assault",
-            "description": null
-          },
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "assault",
+          "blast",
+          "lethal hits"
         ]
       },
       {
@@ -42,10 +33,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       }
     ],
@@ -58,14 +46,11 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
@@ -73,11 +58,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Foul Infusion",
         "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
@@ -87,18 +76,18 @@
         "description": "Once per battle round, you can target one unit from your army with this ability with the Grenade Stratagem for 0CP."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "CHAOS",
       "NURGLE",
       "GRENADES",
-      "BIOLOGUS",
-      "PUTRIFIER"
+      "BIOLOGUS PUTRIFIER"
     ]
   },
   {
-    "name": "Death Guard Chaos Lord",
+    "name": "Death Guard Chaos Lord In Terminator Armour",
     "stats": {
       "move": "5\"",
       "toughness": "5",
@@ -117,18 +106,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -140,14 +120,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "lethal hits",
+          "pistol"
         ]
       },
       {
@@ -159,14 +133,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -178,10 +146,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -193,14 +158,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "hazardous",
+          "pistol"
         ]
       }
     ],
@@ -222,10 +181,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -236,10 +192,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -250,22 +203,23 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Chaos Lord",
         "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
@@ -275,14 +229,14 @@
         "description": "While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
       }
     ],
+    "cost": "65",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "CHAOS",
       "NURGLE",
       "GRENADES",
-      "CHAOS",
-      "LORD"
+      "CHAOS LORD"
     ]
   },
   {
@@ -305,18 +259,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -328,14 +273,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       }
     ],
@@ -348,10 +287,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-vehicle 3+",
-            "description": null
-          }
+          "anti-vehicle 3+"
         ]
       },
       {
@@ -362,10 +298,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -376,10 +309,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -390,14 +320,11 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -405,11 +332,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Chaos Lord",
         "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
@@ -419,18 +350,18 @@
         "description": "While an enemy unit is within Contagion Range of this model, at the end of the turn, roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds."
       }
     ],
+    "cost": "85",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "CHAOS",
       "NURGLE",
       "TERMINATOR",
-      "CHAOS",
-      "LORD"
+      "CHAOS LORD"
     ]
   },
   {
-    "name": "Death Guard Daemon Prince",
+    "name": "Death Guard Daemon Prince With Wings",
     "stats": {
       "move": "7\"",
       "toughness": "11",
@@ -449,18 +380,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -472,22 +394,22 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
     "melee": [
+      {
+        "name": "Hellforged weapons \u2013 strike",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
       {
         "name": "Hellforged weapons \u2013 strike",
         "attacks": "6",
@@ -505,22 +427,36 @@
         "ap": "0",
         "damage": "1",
         "abilities": []
+      },
+      {
+        "name": "Hellforged weapons \u2013 sweep",
+        "attacks": "14",
+        "ws": "2+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Grandfather\u2019s Blessing (Aura, Psychic)",
         "description": "While a friendly DEATH GUARD INFANTRY unit is within Contagion Range of this model, models in that unit have the Feel No Pain 6+ ability."
       }
     ],
+    "cost": "160",
     "keywords": [
       "MONSTER",
       "CHARACTER",
@@ -528,7 +464,8 @@
       "NURGLE",
       "PSYKER",
       "DAEMON",
-      "DAEMON PRINCE"
+      "DAEMON PRINCE",
+      "DEATH GUARD"
     ]
   },
   {
@@ -551,22 +488,36 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
+        ]
+      },
+      {
+        "name": "Plague spewer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "5",
+        "ap": "-1",
+        "damage": "1",
+        "abilities": [
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
     "melee": [
+      {
+        "name": "Hellforged weapons \u2013 strike",
+        "attacks": "6",
+        "ws": "2+",
+        "strength": "8",
+        "ap": "-2",
+        "damage": "3",
+        "abilities": []
+      },
       {
         "name": "Hellforged weapons \u2013 strike",
         "attacks": "6",
@@ -584,13 +535,18 @@
         "ap": "0",
         "damage": "1",
         "abilities": []
+      },
+      {
+        "name": "Hellforged weapons \u2013 sweep",
+        "attacks": "14",
+        "ws": "2+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
       }
     ],
-    "abilities": [
-      {
-        "name": "CORE",
-        "description": null
-      },
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
@@ -598,15 +554,15 @@
       {
         "name": "Deep Strike",
         "description": null
-      },
-      {
-        "name": "FACTION",
-        "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Warp Horror (Psychic)",
         "description": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test."
@@ -616,6 +572,7 @@
         "description": "Each time this model ends a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability."
       }
     ],
+    "cost": "195",
     "keywords": [
       "MONSTER",
       "CHARACTER",
@@ -624,7 +581,12 @@
       "NURGLE",
       "PSYKER",
       "DAEMON",
-      "DAEMON PRINCE WITH WINGS"
+      "DAEMON",
+      "PRINCE",
+      "WITH",
+      "WINGS",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -647,10 +609,19 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
+        ]
+      },
+      {
+        "name": "Plague boltgun",
+        "range": "24\"",
+        "attacks": "2",
+        "bs": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          "lethal hits"
         ]
       }
     ],
@@ -663,31 +634,44 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
+        ]
+      },
+      {
+        "name": "Plague knife",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Unclean Icon",
         "description": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
       },
       {
         "name": "Seed the Disease",
-        "description": "Once per battle, at the end of your Movement phase , this model can use this ability. If it does, until the start of your next Command phase , this model\u2019s unit is treated as having a Contagion Range of 12\"."
+        "description": "Once per battle, at the end of your Movement phase, this model can use this ability. If it does, until the start of your next Command phase, this model\u2019s unit is treated as having a Contagion Range of 12\"."
       }
     ],
+    "cost": "45",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -701,7 +685,7 @@
     ]
   },
   {
-    "name": "Death Guard Sorcerer",
+    "name": "Death Guard Sorcerer in Terminator Armour",
     "stats": {
       "move": "4\"",
       "toughness": "6",
@@ -720,18 +704,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -743,10 +718,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "psychic"
         ]
       },
       {
@@ -758,14 +730,8 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "hazardous",
+          "psychic"
         ]
       },
       {
@@ -777,14 +743,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       }
     ],
@@ -797,10 +757,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-vehicle 3+",
-            "description": null
-          }
+          "anti-vehicle 3+"
         ]
       },
       {
@@ -811,10 +768,7 @@
         "ap": "-1",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "psychic"
         ]
       },
       {
@@ -825,10 +779,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -839,10 +790,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -853,14 +801,11 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -868,11 +813,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Putrescent Vitality (Psychic)",
         "description": "At the start of the Fight phase, you can roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER\u2019s unit, subtract 1 from the Damage characteristic of that attack."
@@ -882,6 +831,7 @@
         "description": "Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
       }
     ],
+    "cost": "70",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -889,7 +839,8 @@
       "CHAOS",
       "NURGLE",
       "TERMINATOR",
-      "SORCERER"
+      "SORCERER",
+      "DEATH GUARD"
     ]
   },
   {
@@ -912,18 +863,23 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-infantry",
-            "description": null
-          },
-          {
-            "name": "ignores",
-            "description": "cover"
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
+        ]
+      },
+      {
+        "name": "Plague sprayer",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "7",
+        "ap": "-2",
+        "damage": "2",
+        "abilities": [
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -936,22 +892,36 @@
         "ap": "0",
         "damage": "1",
         "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "attacks": "4",
+        "ws": "3+",
+        "strength": "4",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Putrefying Stink",
         "description": "While this model is leading a unit, models in that unit have the Fights First ability."
       }
     ],
+    "cost": "60",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -982,10 +952,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -996,22 +963,27 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deep Strike, Leader"
+        "name": "Deep Strike",
+        "description": null
       },
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Leader",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Vector of Disease",
         "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
@@ -1021,6 +993,7 @@
         "description": "In the Fight phase, each time this model loses a wound, roll one D6: on a 4+, the closest enemy unit within Engagement Range of this model suffers 1 mortal wound."
       }
     ],
+    "cost": "80",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1028,13 +1001,11 @@
       "NURGLE",
       "TERMINATOR",
       "GRENADES",
-      "LORD",
-      "OF",
-      "CONTAGION"
+      "LORD OF CONTAGION"
     ]
   },
   {
-    "name": "Lord Of Virulence",
+    "name": "Lord of Virulence",
     "stats": {
       "move": "4\"",
       "toughness": "6",
@@ -1053,22 +1024,10 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry",
-            "description": null
-          },
-          {
-            "name": "ignores",
-            "description": "cover"
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -1081,48 +1040,44 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal",
-            "description": "hits"
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deep",
-        "description": "Strike"
+        "name": "Deep Strike",
+        "description": null
       },
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s",
-        "description": "Gift (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Master of Destruction",
-        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the  Wound roll."
+        "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll."
       },
       {
         "name": "Blight Bombardment",
         "description": "Each time a friendly DEATH GUARD model makes an attack with a Blast weapon that targets a unit that is visible to this model, add 1 to the Hit roll and that attack has the [IGNORES COVER] ability."
-      },
-      {
-        "name": "INVULNERABLE SAVE",
-        "description": "4+"
       }
     ],
+    "cost": "80",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "CHAOS",
       "NURGLE",
       "TERMINATOR",
-      "LORD",
-      "OF",
-      "VIRULENCE"
+      "LORD OF VIRULENCE"
     ]
   },
   {
@@ -1145,14 +1100,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "lethal hits",
+          "pistol"
         ]
       },
       {
@@ -1164,14 +1113,8 @@
         "ap": "-1",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "psychic",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "psychic",
+          "torrent"
         ]
       },
       {
@@ -1183,18 +1126,9 @@
         "ap": "-2",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "psychic",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "hazardous",
+          "psychic",
+          "torrent"
         ]
       }
     ],
@@ -1207,26 +1141,24 @@
         "ap": "-1",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "lethal hits",
+          "psychic"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Gift of Contagion (Psychic)",
         "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER and roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2+, until the start of your next Shooting phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
@@ -1236,6 +1168,7 @@
         "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Plague Wind scored a wound against an enemy INFANTRY unit, until the start of your next turn, subtract 2 from that unit\u2019s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
       }
     ],
+    "cost": "65",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1266,22 +1199,10 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "blast",
+          "devastating wounds",
+          "lethal hits",
+          "psychic"
         ]
       },
       {
@@ -1293,14 +1214,8 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          },
-          {
-            "name": "sustained hits d3",
-            "description": null
-          }
+          "pistol",
+          "sustained hits d3"
         ]
       }
     ],
@@ -1313,10 +1228,7 @@
         "ap": "-3",
         "damage": "4",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -1327,18 +1239,31 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "4+"
+        "name": "Deadly Demise D6",
+        "description": null
       },
+      {
+        "name": "Deep Strike",
+        "description": null
+      },
+      {
+        "name": "Feel No Pain 5+",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Miasma of Pestilence (Aura)",
         "description": "While a friendly DEATH GUARD unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
@@ -1352,37 +1277,21 @@
         "description": "While a friendly DEATH GUARD unit is within 12\" of this model, add 3\" to the Contagion Range of that unit."
       },
       {
-        "name": "CORE",
-        "description": "Deadly Demise D6, Deep Strike, Feel No Pain 5+"
-      },
-      {
-        "name": "FACTION",
-        "description": "Nurgle\u2019s Gift (Aura)"
-      },
-      {
         "name": "Host of Plagues",
         "description": "At the start of the battle round, select one of the abilities in the Host of Plagues section (see left). Until the start of the next battle round, this model has that ability."
       },
       {
         "name": "Lord of the Death Guard (Aura)",
         "description": "While a friendly DEATH GUARD unit is within 6\" of this model, that unit can ignore any or all modifiers to its characteristics and to any roll or test made for it (excluding modifiers to saving throws)."
-      },
-      {
-        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
-        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "SUPREME COMMANDER",
-        "description": "If this model is in your army, it must be your Warlord."
       }
     ],
+    "cost": "300",
     "keywords": [
       "MONSTER",
       "PSYKER",
       "FLY",
       "CHARACTER",
-      "EPIC",
-      "HERO",
+      "EPIC HERO",
       "DAEMON",
       "GRENADES",
       "CHAOS",
@@ -1411,10 +1320,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -1426,14 +1332,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "pistol",
+          "hazardous"
         ]
       }
     ],
@@ -1446,31 +1346,33 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
-        "name": "Sickening Vitality",
+        "name": "Sickening Vitality:",
         "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
       },
       {
-        "name": "The Bell Tolls (Aura)",
+        "name": "The Bell Tolls (Aura):",
         "description": "While an enemy unit is within Contagion Range of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 2 from that test."
       }
     ],
+    "cost": "45",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1500,14 +1402,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "lethal hits",
+          "pistol"
         ]
       }
     ],
@@ -1520,22 +1416,23 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Tainted Narthecium",
         "description": "While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit."
@@ -1545,6 +1442,7 @@
         "description": "At the end of your Movement phase, you can select one friendly DEATH GUARD INFANTRY CHARACTER model within 3\" of this model. That model regains up to 3 lost wounds. Each model can only be selected for this ability once per turn."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1574,14 +1472,8 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          },
-          {
-            "name": "sustained hits d3",
-            "description": null
-          }
+          "pistol",
+          "sustained hits d3"
         ]
       },
       {
@@ -1593,18 +1485,9 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          },
-          {
-            "name": "sustained hits d3",
-            "description": null
-          }
+          "hazardous",
+          "pistol",
+          "sustained hits d3"
         ]
       }
     ],
@@ -1619,15 +1502,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Malicious Calculations",
         "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll."
@@ -1637,6 +1524,7 @@
         "description": "In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
       }
     ],
+    "cost": "45",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1665,10 +1553,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -1679,14 +1564,11 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
@@ -1694,11 +1576,15 @@
       {
         "name": "Leader",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "The Destroyer Hive",
         "description": "While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll."
@@ -1708,6 +1594,7 @@
         "description": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this PSYKER) and roll one D6: on a 1, this PSYKER\u2019s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
       }
     ],
+    "cost": "80",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -1720,7 +1607,7 @@
     ]
   },
   {
-    "name": "Chaos Lord On Palanquin Of Nurgle",
+    "name": "Chaos Lord on Palanquin of Nurgle",
     "stats": {
       "move": "5\"",
       "toughness": "5",
@@ -1739,10 +1626,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -1754,10 +1638,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -1769,18 +1650,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -1792,10 +1664,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -1807,14 +1676,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "hazardous",
+          "pistol"
         ]
       }
     ],
@@ -1854,14 +1717,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "extra attacks",
-            "description": null
-          },
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "extra attacks",
+          "lethal hits"
         ]
       },
       {
@@ -1872,10 +1729,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -1888,15 +1742,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Leader"
-      },
+        "name": "Leader",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
-        "description": "Nurgle\u2019s Gift (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Lord of Chaos",
         "description": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
@@ -1906,21 +1764,19 @@
         "description": "At the start of your Command phase, this model regains up to D3 lost wounds."
       }
     ],
+    "cost": "90",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
       "GRENADES",
       "CHAOS",
       "NURGLE",
-      "CHAOS",
-      "LORD",
-      "PALANQUIN",
-      "OF",
-      "NURGLE"
+      "CHAOS LORD",
+      "PALANQUIN OF NURGLE"
     ]
   },
   {
-    "name": "Sorcerer On Palanquin Of Nurgle",
+    "name": "Sorcerer on Palanquin of Nurgle",
     "stats": {
       "move": "5\"",
       "toughness": "5",
@@ -1939,10 +1795,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "Pistol"
         ]
       },
       {
@@ -1954,10 +1807,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "Rapid Fire 2"
         ]
       },
       {
@@ -1969,18 +1819,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
         ]
       },
       {
@@ -1992,18 +1833,9 @@
         "ap": "-2",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "Devastating Wounds",
+          "Hazardous",
+          "Psychic"
         ]
       },
       {
@@ -2015,10 +1847,7 @@
         "ap": "-1",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "Psychic"
         ]
       },
       {
@@ -2030,10 +1859,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "Pistol"
         ]
       },
       {
@@ -2045,14 +1871,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "Hazardous",
+          "Pistol"
         ]
       }
     ],
@@ -2083,10 +1903,7 @@
         "ap": "-1",
         "damage": "D3",
         "abilities": [
-          {
-            "name": "psychic",
-            "description": null
-          }
+          "Psychic"
         ]
       },
       {
@@ -2097,14 +1914,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "extra attacks",
-            "description": null
-          },
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "Extra Attacks",
+          "Lethal Hits"
         ]
       },
       {
@@ -2117,15 +1928,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Leader",
-        "description": "CORE:"
-      },
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "FACTION: (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Gift of Poxes (Psychic)",
         "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
@@ -2133,8 +1948,17 @@
       {
         "name": "Feculent Despair (Aura, Psychic)",
         "description": "While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+      },
+      {
+        "name": "Spread the Sickness",
+        "description": null
+      },
+      {
+        "name": "Verminous Haze",
+        "description": null
       }
     ],
+    "cost": "80",
     "keywords": [
       "INFANTRY",
       "CHARACTER",
@@ -2168,10 +1992,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2183,10 +2004,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -2198,18 +2016,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -2221,14 +2030,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "lethal hits",
+          "pistol"
         ]
       },
       {
@@ -2240,10 +2043,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2255,18 +2055,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -2278,10 +2069,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "rapid fire 1"
         ]
       },
       {
@@ -2293,14 +2081,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "hazardous",
+          "rapid fire 1"
         ]
       },
       {
@@ -2312,10 +2094,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "pistol"
         ]
       },
       {
@@ -2327,14 +2106,8 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          }
+          "hazardous",
+          "pistol"
         ]
       }
     ],
@@ -2347,10 +2120,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2361,10 +2131,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2375,19 +2142,24 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Nurgle\u2019s Gift (Aura)",
-        "description": "Remorseless: While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test."
+        "name": "Remorseless",
+        "description": "While this unit is within range of an objective marker you control, each time you take a Battle-shock test for this unit, add 1 to that test."
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift",
+        "description": "(Aura)"
+      }
+    ],
+    "ds_abilities": [],
+    "cost": "90/125/180",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -2418,18 +2190,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -2441,18 +2204,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -2464,10 +2218,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -2479,10 +2230,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -2494,14 +2242,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -2513,14 +2255,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       }
     ],
@@ -2532,15 +2268,19 @@
         "strength": "6",
         "ap": "0",
         "damage": "1",
-        "abilities": [
-          {
-            "name": "Armoured tracks",
-            "description": null
-          }
-        ]
+        "abilities": []
+      },
+      {
+        "name": "Armoured tracks",
+        "attacks": "3",
+        "ws": "4+",
+        "strength": "6",
+        "ap": "0",
+        "damage": "1",
+        "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
@@ -2548,23 +2288,27 @@
       {
         "name": "Firing Deck 2",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Self Repair",
         "description": "At the start of your Command phase, this model regains 1 lost wound."
       }
     ],
+    "cost": "75",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "TRANSPORT",
-      "DEDICATED",
-      "TRANSPORT",
+      "DEDICATED TRANSPORT",
       "SMOKE",
       "RHINO"
     ]
@@ -2589,10 +2333,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -2604,10 +2345,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "torrent",
-            "description": "ignores cover"
-          }
+          "torrent",
+          "ignores cover"
         ]
       },
       {
@@ -2619,10 +2358,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "melta 2"
-          }
+          "melta 2"
         ]
       },
       {
@@ -2634,10 +2370,8 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": "twin-linked"
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
@@ -2650,46 +2384,46 @@
         "ap": "-2",
         "damage": "D3+3",
         "abilities": [
-          {
-            "name": "anti-vehicle",
-            "description": "anti-vehicle 3+"
-          }
+          "anti-vehicle 3+"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
+        "name": "Deadly Demise D3",
+        "description": null
       },
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Termite Assault",
         "description": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models."
       }
     ],
+    "cost": "200",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "TRANSPORT",
-      "DEDICATED",
-      "TRANSPORT",
-      "TERRAX-PATTERN",
-      "TERMITE"
+      "DEDICATED TRANSPORT",
+      "TERRAX-PATTERN TERMITE"
     ]
   },
   {
     "name": "Miasmic Malignifier",
     "stats": {
-      "move": "\\-",
+      "move": " -",
       "toughness": "10",
       "save": "3+",
       "wounds": "12",
@@ -2706,19 +2440,26 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
+        ]
+      },
+      {
+        "name": "Noxious stink",
+        "range": "6\"",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
     "melee": [],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
@@ -2726,30 +2467,34 @@
       {
         "name": "Infiltrators",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Putrescent Fog (Aura)",
-        "description": "While a friendly DEATH GUARD unit is wholly within 6\" of this FORTIFICATION, each time an attack targets that unit, subtract 1 from the Hit roll."
+        "description": "While a friendly DEATH GUARD unit is wholly within 6\" of this FORTIFICATION , each time an attack targets that unit, subtract 1 from the Hit roll."
       },
       {
         "name": "Diseased Cover",
-        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+        "description": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION , that model has the Benefit of Cover against that attack."
       },
       {
         "name": "Fortification",
-        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army: That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+        "description": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\nThat unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol , subtract 1 from the Hit roll . Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked , except for those that will move over enemy models when doing so."
       }
     ],
+    "cost": "115",
     "keywords": [
       "FORTIFICATION",
       "CHAOS",
       "NURGLE",
-      "MIASMIC",
-      "MALIGNIFIER"
+      "MIASMIC MALIGNIFIER"
     ]
   },
   {
@@ -2772,10 +2517,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2787,18 +2529,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -2810,14 +2543,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -2829,18 +2556,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -2852,14 +2570,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "devastating wounds",
+          "sustained hits 1"
         ]
       }
     ],
@@ -2872,10 +2584,7 @@
         "ap": "-2",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -2886,27 +2595,29 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Blistering Fusillade",
         "description": "Each time a model in this unit makes a ranged attack, if it targets the closest eligible enemy unit, re-roll a Wound roll of 1."
       }
     ],
+    "cost": "5 models 155, 10 models 310",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -2917,7 +2628,7 @@
     ]
   },
   {
-    "name": "Death Guard Chaos Spawn",
+    "name": "Chaos Spawn",
     "stats": {
       "move": "8\"",
       "toughness": "5",
@@ -2938,20 +2649,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Feel No Pain",
-        "description": "5+"
-      },
+        "name": "Feel No Pain 5+",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Regenerating Monstrosities",
         "description": "At the start of each player\u2019s Command phase, one model in this unit regains up to D3 lost wounds."
       }
     ],
+    "cost": "70",
     "keywords": [
       "BEAST",
       "CHAOS",
@@ -2960,7 +2676,7 @@
     ]
   },
   {
-    "name": "Death Guard Cultists",
+    "name": "Death Guard Cultist",
     "stats": {
       "move": "6\"",
       "toughness": "3",
@@ -2989,14 +2705,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -3008,10 +2718,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3033,10 +2740,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 3",
-            "description": null
-          }
+          "rapid fire 3"
         ]
       }
     ],
@@ -3051,16 +2755,20 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Scouts 6\"",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
       }
     ],
+    "ds_abilities": [],
+    "cost": "50 / 100",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -3088,18 +2796,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -3111,10 +2810,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3126,10 +2822,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3141,14 +2834,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -3160,14 +2847,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "devastating wounds",
+          "sustained hits 1"
         ]
       },
       {
@@ -3179,18 +2860,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "torrent",
+          "ignores cover",
+          "twin-linked"
         ]
       },
       {
@@ -3202,10 +2874,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -3217,18 +2886,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "lethal hits",
+          "sustained hits 1",
+          "twin-linked"
         ]
       }
     ],
@@ -3250,27 +2910,29 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "extra attacks",
-            "description": null
-          }
+          "extra attacks"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Scuttling Walker",
         "description": "Each time this model makes a Normal, Advance or Fall Back move, it can move over friendly MONSTER and VEHICLE models and terrain features that are 4\" or less in height as if they were not there."
       }
     ],
+    "cost": "190",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -3278,7 +2940,9 @@
       "NURGLE",
       "DAEMON",
       "SMOKE",
-      "DEFILER"
+      "DEFILER",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -3301,14 +2965,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -3320,14 +2978,8 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -3339,10 +2991,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3364,10 +3013,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -3379,14 +3025,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -3398,10 +3038,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -3413,10 +3050,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -3428,18 +3062,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "lethal hits",
+          "sustained hits 1",
+          "twin-linked"
         ]
       }
     ],
@@ -3481,13 +3106,21 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Infused with the Blessings of Nurgle",
         "description": "Each time this model is selected to shoot or fight, after it has finished making its attacks, select one enemy unit that was hit by one or more of those attacks. Until the start of your next turn, that enemy unit is always considered to be within Contagion Range of this model."
       },
       {
@@ -3499,6 +3132,7 @@
         "description": "If this model is equipped with two Helbrute fists, those weapons have the [TWIN-LINKED] ability."
       }
     ],
+    "cost": "130",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -3527,18 +3161,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -3550,10 +3175,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3565,14 +3187,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -3594,18 +3210,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "lethal hits",
+          "sustained hits 1",
+          "twin-linked"
         ]
       }
     ],
@@ -3620,32 +3227,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "TRANSPORT",
-        "description": "This model has a transport capacity of 12 DEATH GUARD INFANTRY models (excluding CULTIST and POXWALKER models). Each TERMINATOR model takes up the space of 2 models."
-      },
-      {
-        "name": "Spread the Sickness",
-        "description": null
       }
     ],
+    "cost": "240",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -3653,9 +3253,7 @@
       "TRANSPORT",
       "SMOKE",
       "LAND",
-      "RAIDER",
-      "DEATH",
-      "GUARD"
+      "RAIDER"
     ]
   },
   {
@@ -3678,18 +3276,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -3701,10 +3290,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3726,14 +3312,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -3745,14 +3325,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "lethal hits",
+          "sustained hits 1"
         ]
       },
       {
@@ -3764,10 +3338,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -3782,31 +3353,34 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Annihilator",
         "description": "Each time a ranged attack made by this model is allocated to a MONSTER or VEHICLE model, you can re-roll the Damage roll."
-      },
-      {
-        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "130",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "SMOKE",
       "PREDATOR",
-      "ANNIHILATOR"
+      "ANNIHILATOR",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -3829,18 +3403,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 4+",
-            "description": null
-          },
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "rapid fire 1",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "devastating wounds",
+          "rapid fire 1"
         ]
       },
       {
@@ -3852,10 +3417,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -3877,14 +3439,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 2"
         ]
       },
       {
@@ -3896,14 +3452,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "lethal hits",
+          "sustained hits 1"
         ]
       },
       {
@@ -3915,10 +3465,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -3933,35 +3480,34 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Destructor",
         "description": "Each time this model makes a ranged attack that targets an INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
-      },
-      {
-        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Spread the Sickness",
-        "description": null
       }
     ],
+    "cost": "130",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "SMOKE",
       "PREDATOR",
-      "DESTRUCTOR"
+      "DESTRUCTOR",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -3984,22 +3530,25 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "pistol",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 4+",
+          "ignores cover",
+          "pistol",
+          "torrent"
+        ]
+      },
+      {
+        "name": "Plaguespurt gauntlet",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "strength": "3",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          "anti-infantry 4+",
+          "ignores cover",
+          "pistol",
+          "torrent"
         ]
       }
     ],
@@ -4012,10 +3561,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -4026,38 +3572,35 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift",
         "description": "(Aura)"
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Silent Bodyguard",
         "description": "While a CHARACTER model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit\u2019s Toughness characteristic, subtract 1 from the Wound roll."
-      },
-      {
-        "name": "INVULNERABLE SAVE",
-        "description": "4+"
       }
     ],
+    "cost": "110/220",
     "keywords": [
       "INFANTRY",
       "CHAOS",
       "NURGLE",
       "TERMINATOR",
-      "DEATHSHROUD",
-      "TERMINATORS"
+      "DEATHSHROUD TERMINATORS"
     ]
   },
   {
@@ -4080,10 +3623,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -4095,18 +3635,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -4119,10 +3650,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -4133,27 +3661,29 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
-        "name": "Hovering Death:",
+        "name": "Hovering Death",
         "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
       }
     ],
+    "cost": "90",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -4165,7 +3695,7 @@
     ]
   },
   {
-    "name": "Myphitic Blight-haulers",
+    "name": "Plagueburst Crawler",
     "stats": {
       "move": "10\"",
       "toughness": "9",
@@ -4184,10 +3714,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -4199,10 +3726,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -4224,10 +3748,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       }
     ],
@@ -4240,27 +3761,29 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Tank Hunters",
         "description": "Each time a model in this unit makes a ranged attack that targets a VEHICLE unit, add 1 to the Wound roll."
       }
     ],
+    "cost": "90/180/270",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -4291,10 +3814,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -4316,18 +3836,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          },
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "blast",
+          "indirect fire",
+          "lethal hits"
         ]
       },
       {
@@ -4339,18 +3850,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-infantry 2+",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "anti-infantry 2+",
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -4362,14 +3864,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          },
-          {
-            "name": "rapid fire 3",
-            "description": null
-          }
+          "lethal hits",
+          "rapid fire 3"
         ]
       }
     ],
@@ -4384,28 +3880,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Invulnerable Save",
-        "description": "5+"
-      },
-      {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Spore-laced Shock Waves",
         "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Plagueburst mortar scored a hit against an enemy INFANTRY unit, that INFANTRY unit must take a Battle-shock test."
-      },
-      {
-        "name": "Damaged",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "180",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -4435,27 +3928,29 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Feel No Pain",
-        "description": "5+"
-      },
+        "name": "Feel No Pain 5+",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Curse of the Walking Pox",
         "description": "Each time a model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of TYPHUS\u2019 The Eater Plague ability count as enemy models destroyed by an attack made by a model in this unit for the purposes of this ability."
       }
     ],
+    "cost": "50",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -4464,7 +3959,7 @@
     ]
   },
   {
-    "name": "Death Guard Possessed",
+    "name": "Possessed",
     "stats": {
       "move": "9\"",
       "toughness": "6",
@@ -4485,24 +3980,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
-        "description": "Infectious Bloodshed: Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        "description": null
       },
       {
-        "name": "Diseased Icon",
-        "description": "Melee weapons in the bearer\u2019s unit have the [LETHAL HITS] ability."
-      },
-      {
-        "name": "Faction",
-        "description": "Nurgle's Gift"
-      },
-      {
-        "name": "Faction Keyword",
-        "description": "Death Guard"
+        "name": "Infectious Bloodshed",
+        "description": "Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
       }
     ],
+    "ds_abilities": [],
+    "cost": "155/310",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -4511,7 +4001,7 @@
     ]
   },
   {
-    "name": "NIGHTMARE HULK",
+    "name": "GELLERPOX MUTANTS",
     "stats": {
       "move": "5\"",
       "toughness": "5",
@@ -4522,11 +4012,14 @@
     },
     "ranged": [],
     "melee": [],
-    "abilities": [],
+    "core_abilities": [],
+    "faction_abilities": [],
+    "ds_abilities": [],
+    "cost": "",
     "keywords": []
   },
   {
-    "name": "GELLERPOX MUTANTS",
+    "name": "Gellerpox Infected",
     "stats": {
       "move": "N/A",
       "toughness": "N/A",
@@ -4545,10 +4038,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover, torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       }
     ],
@@ -4572,11 +4063,13 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Feel No Pain 5+",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
@@ -4584,16 +4077,10 @@
       {
         "name": "Fearsome (Aura)",
         "description": "While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result."
-      },
-      {
-        "name": "Spread the Sickness",
-        "description": null
-      },
-      {
-        "name": "Verminous Haze",
-        "description": null
       }
     ],
+    "ds_abilities": [],
+    "cost": "125",
     "keywords": [
       "INFANTRY",
       "CHAOS",
@@ -4623,10 +4110,7 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4638,10 +4122,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -4656,34 +4137,39 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Interceptor",
         "description": "Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
       }
     ],
+    "cost": "115",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "AIRCRAFT",
       "FLY",
       "NURGLE",
-      "HELL",
-      "BLADE"
+      "HELL BLADE",
+      "DEATH GUARD"
     ]
   },
   {
     "name": "Hell Talon",
     "stats": {
-      "move": "20+\"",
+      "move": "20+",
       "toughness": "9",
       "save": "3+",
       "wounds": "14",
@@ -4710,10 +4196,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -4725,10 +4208,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -4743,24 +4223,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Bomb Rack",
         "description": "Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "140",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -4791,18 +4272,28 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
+        ]
+      },
+      {
+        "name": "Diseased claws and fangs",
+        "attacks": "2",
+        "ws": "4+",
+        "strength": "2",
+        "ap": "0",
+        "damage": "1",
+        "abilities": [
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Feel No Pain 6+",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
@@ -4812,6 +4303,8 @@
         "description": "While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll."
       }
     ],
+    "ds_abilities": [],
+    "cost": "85",
     "keywords": [
       "SWARM",
       "CHAOS",
@@ -4841,14 +4334,7 @@
         "ap": "-4",
         "damage": "D6+3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          },
-          {
-            "name": "[LETHAL HITS]",
-            "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
-          }
+          "twin-linked"
         ]
       },
       {
@@ -4860,10 +4346,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -4875,10 +4358,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "torrent, ignores cover",
-            "description": null
-          }
+          "torrent",
+          "ignores cover"
         ]
       },
       {
@@ -4900,10 +4381,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -4915,10 +4393,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -4933,26 +4408,32 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
-        "description": "CORE"
-      },
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
-        "description": "FACTION"
-      },
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Atomantic Arc-reactor",
         "description": "Each time this unit shoots its Cerberus neutron pulse array in your Shooting phase, provided it Remained Stationary this turn, that weapon has the [LETHAL HITS] ability."
       }
     ],
+    "cost": "285",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "SMOKE",
-      "CERBERUS"
+      "CERBERUS",
+      "DEATH GUARD"
     ]
   },
   {
@@ -4975,10 +4456,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-fly",
-            "description": null
-          }
+          "anti-fly 4+"
         ]
       },
       {
@@ -5000,10 +4478,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5015,10 +4490,7 @@
         "ap": "-4",
         "damage": "D6+6",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5030,14 +4502,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       }
     ],
@@ -5052,36 +4518,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6+2"
+        "name": "Deadly Demise D6+2",
+        "description": null
       },
       {
         "name": "Hover",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
-      {
-        "name": "Aerial Assault",
-        "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "Thunderhawk Cluster Bombs",
-        "description": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
-      },
-      {
-        "name": "Damaged",
-        "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
-      },
-      {
-        "name": "Spread the Sickness",
+        "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
       }
     ],
+    "ds_abilities": [
+      {
+        "name": "Aerial Assault",
+        "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      }
+    ],
+    "cost": "840",
     "keywords": [
       "VEHICLE",
       "TITANIC",
@@ -5089,7 +4548,9 @@
       "AIRCRAFT",
       "TRANSPORT",
       "CHAOS",
-      "THUNDERHAWK"
+      "THUNDERHAWK",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -5112,10 +4573,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5127,10 +4585,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -5152,10 +4607,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "anti-fly",
-            "description": "2+"
-          }
+          "anti-fly 2+"
         ]
       },
       {
@@ -5177,10 +4629,7 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "hazardous"
         ]
       },
       {
@@ -5192,14 +4641,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits",
-            "description": "1"
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -5211,18 +4654,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       },
       {
@@ -5234,10 +4668,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -5252,24 +4683,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "5+"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "CORE",
-        "description": "Deadly Demise D3"
-      },
-      {
-        "name": "FACTION",
-        "description": "Nurgle\u2019s Gift (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Deredeo Strike",
         "description": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
       }
     ],
+    "cost": "170",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -5281,7 +4713,7 @@
     ]
   },
   {
-    "name": "Falchion",
+    "name": "Fellblade",
     "stats": {
       "move": "9\"",
       "toughness": "13",
@@ -5300,10 +4732,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -5315,10 +4744,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover, torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -5330,10 +4757,7 @@
         "ap": "-4",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -5345,10 +4769,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -5370,10 +4791,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -5385,10 +4803,8 @@
         "ap": "-5",
         "damage": "12",
         "abilities": [
-          {
-            "name": "blast, twin-linked",
-            "description": null
-          }
+          "blast",
+          "twin-linked"
         ]
       },
       {
@@ -5400,10 +4816,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1, twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -5415,10 +4829,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover, torrent, twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -5433,20 +4846,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE",
-        "description": "Deadly Demise D6+2"
-      },
+        "name": "Deadly Demise D6+2",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "FACTION",
-        "description": "Nurgle\u2019s Gift (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Titan-killer",
         "description": "Each time this model makes a ranged attack with its twin Falchion volcano cannon that targets a MONSTER or VEHICLE unit, that attack has the [DEVASTATING WOUNDS] ability."
       }
     ],
+    "cost": "515",
     "keywords": [
       "VEHICLE",
       "TITANIC",
@@ -5476,10 +4894,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5501,10 +4916,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5516,10 +4928,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -5531,14 +4940,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -5550,10 +4953,7 @@
         "ap": "-4",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -5565,10 +4965,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -5590,10 +4987,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -5605,14 +4999,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -5624,18 +5012,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -5650,24 +5029,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6+2"
-      },
+        "name": "Deadly Demise D6+2",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Rolling Fortress",
         "description": "Each time a ranged attack is allocated to a model from your army, if that model is not fully visible to every model in the attacking unit because of this Fellblade model, that model has the Benefit of Cover against that attack."
-      },
-      {
-        "name": "DAMAGED: 1-8 WOUNDS REMAINING",
-        "description": "While this model has 1-8 wounds remaining, subtract 4 from this model\u2019s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "535",
     "keywords": [
       "VEHICLE",
       "TITANIC",
@@ -5697,14 +5077,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "twin-linked",
+          "sustained hits 1"
         ]
       },
       {
@@ -5716,10 +5090,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -5731,10 +5102,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -5746,14 +5114,8 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "anti-fly 2+",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "anti-fly 2+",
+          "twin-linked"
         ]
       },
       {
@@ -5765,10 +5127,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -5783,24 +5142,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "CORE: Deadly Demise D6, Hover",
+        "name": "Deadly Demise D6",
         "description": null
       },
       {
-        "name": "FACTION: Nurgle\u2019s Gift (Aura)",
+        "name": "Hover",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Strafing Run",
         "description": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
-      },
-      {
-        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
-        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "290",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -5832,10 +5196,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       },
       {
@@ -5847,10 +5208,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
@@ -5863,14 +5221,11 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "lethal hits",
-            "description": null
-          }
+          "lethal hits"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise 1",
         "description": null
@@ -5878,16 +5233,21 @@
       {
         "name": "Deep Strike",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Hovering Death",
         "description": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
       }
     ],
+    "cost": "150",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -5929,18 +5289,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ANTI-INFANTRY",
-            "description": null
-          },
-          {
-            "name": "DEVASTATING WOUNDS",
-            "description": null
-          },
-          {
-            "name": "RAPID FIRE 1",
-            "description": null
-          }
+          "ANTI-INFANTRY 4+",
+          "DEVASTATING WOUNDS",
+          "RAPID FIRE 1"
         ]
       },
       {
@@ -5952,10 +5303,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -5967,10 +5315,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "SUSTAINED HITS 1",
-            "description": null
-          }
+          "SUSTAINED HITS 1"
         ]
       },
       {
@@ -5982,14 +5327,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "IGNORES COVER",
-            "description": null
-          },
-          {
-            "name": "TORRENT",
-            "description": null
-          }
+          "IGNORES COVER",
+          "TORRENT"
         ]
       },
       {
@@ -6001,10 +5340,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "One shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -6016,10 +5352,7 @@
         "ap": "-4",
         "damage": "D6+3",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -6031,10 +5364,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -6056,10 +5386,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -6071,10 +5398,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "MELTA 2",
-            "description": null
-          }
+          "MELTA 2"
         ]
       },
       {
@@ -6086,10 +5410,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -6101,10 +5422,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -6116,10 +5434,7 @@
         "ap": "0",
         "damage": "3",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -6131,10 +5446,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -6149,24 +5461,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Line-breaker",
         "description": "When making ranged attacks, this model can target enemy units within Engagement Range of it with Blast weapons (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
-      },
-      {
-        "name": "DAMAGED: 1-6 WOUNDS REMAINING",
-        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "265",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -6195,10 +5508,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "One Shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "One shot"
         ]
       },
       {
@@ -6220,18 +5530,8 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect",
-            "description": null
-          },
-          {
-            "name": "fire",
-            "description": null
-          }
+          "blast",
+          "indirect fire"
         ]
       },
       {
@@ -6243,10 +5543,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -6258,14 +5555,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "melta 2",
+          "twin-linked"
         ]
       },
       {
@@ -6277,14 +5568,8 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
@@ -6299,20 +5584,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
       }
     ],
+    "cost": "285",
     "keywords": [
       "VEHICLE",
       "TRANSPORT",
@@ -6344,10 +5634,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -6359,10 +5646,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -6374,10 +5658,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -6389,10 +5670,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -6404,14 +5682,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          },
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "twin-linked",
+          "sustained hits 1"
         ]
       },
       {
@@ -6423,18 +5695,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       },
       {
@@ -6446,10 +5709,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -6464,15 +5724,19 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6"
-      },
+        "name": "Deadly Demise D6",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Assault Ramp",
         "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
@@ -6480,20 +5744,9 @@
       {
         "name": "Explorator Augury Web",
         "description": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this bearer, but the bearer must halve its Transport Capacity."
-      },
-      {
-        "name": "One Shot",
-        "description": "The bearer can only shoot with this weapon once per battle."
-      },
-      {
-        "name": "Damaged: 1-5 Wounds Remaining",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Spread the Sickness",
-        "description": null
       }
     ],
+    "cost": "250",
     "keywords": [
       "VEHICLE",
       "TRANSPORT",
@@ -6502,9 +5755,7 @@
       "NURGLE",
       "LAND",
       "RAIDER",
-      "PROTEUS",
-      "DEATH",
-      "GUARD"
+      "PROTEUS"
     ]
   },
   {
@@ -6527,10 +5778,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          }
+          "melta 2"
         ]
       },
       {
@@ -6542,14 +5790,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-vehicle",
-            "description": "2+"
-          },
-          {
-            "name": "blast",
-            "description": null
-          }
+          "anti-vehicle 2+",
+          "blast"
         ]
       },
       {
@@ -6561,14 +5803,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores",
-            "description": "cover"
-          },
-          {
-            "name": "torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -6580,10 +5816,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -6595,10 +5828,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta",
-            "description": "2"
-          }
+          "melta 2"
         ]
       },
       {
@@ -6610,10 +5840,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -6625,14 +5852,8 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating",
-            "description": "wounds"
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
@@ -6663,27 +5884,29 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-vehicle",
-            "description": "3+"
-          }
+          "anti-vehicle 3+"
         ]
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Duty Eternal",
         "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
       }
     ],
+    "cost": "215",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -6691,10 +5914,7 @@
       "NURGLE",
       "SMOKE",
       "DREADNOUGHT",
-      "LEVIATHAN",
-      "DREADNOUGHT",
-      "DEATH",
-      "GUARD"
+      "LEVIATHAN DREADNOUGHT"
     ]
   },
   {
@@ -6717,10 +5937,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -6732,10 +5949,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover, torrent",
-            "description": null
-          }
+          "ignores cover",
+          "torrent"
         ]
       },
       {
@@ -6757,10 +5972,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -6772,10 +5984,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-fly 4+",
-            "description": null
-          }
+          "anti-fly 4+"
         ]
       },
       {
@@ -6787,10 +5996,7 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       }
     ],
@@ -6805,20 +6011,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "2D6"
-      },
+        "name": "Deadly Demise 2D6",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Inviolable Transport",
         "description": "Once per battle round, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
       }
     ],
+    "cost": "610",
     "keywords": [
       "VEHICLE",
       "TITANIC",
@@ -6859,18 +6070,9 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "anti-vehicle",
-            "description": "2+"
-          },
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "anti-vehicle 2+",
+          "blast",
+          "heavy"
         ]
       },
       {
@@ -6882,10 +6084,7 @@
         "ap": "-4",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -6897,18 +6096,9 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          },
-          {
-            "name": "sustained",
-            "description": "hits 1"
-          }
+          "heavy",
+          "twin-linked",
+          "sustained hits 1"
         ]
       },
       {
@@ -6920,10 +6110,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -6935,18 +6122,9 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "heavy",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "heavy",
+          "indirect fire"
         ]
       }
     ],
@@ -6961,16 +6139,20 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Powerful Volley",
         "description": "Each time this model shoots in your Shooting phase, provided it Remained Stationary this turn, all [HEAVY] weapons equipped by models in this unit have the [LETHAL HITS] ability."
       }
     ],
+    "cost": "100",
     "keywords": [
       "ARTILLERY",
       "VEHICLE",
@@ -7000,10 +6182,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -7015,14 +6194,8 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "conversion",
-            "description": null
-          },
-          {
-            "name": "sustained hits d3",
-            "description": null
-          }
+          "conversion",
+          "sustained hits d3"
         ]
       },
       {
@@ -7034,10 +6207,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "BLAST",
-            "description": null
-          }
+          "BLAST"
         ]
       },
       {
@@ -7059,10 +6229,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "anti-vehicle 2+",
-            "description": null
-          }
+          "anti-vehicle 2+"
         ]
       },
       {
@@ -7074,10 +6241,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "TWIN-LINKED",
-            "description": null
-          }
+          "TWIN-LINKED"
         ]
       },
       {
@@ -7089,14 +6253,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "TWIN-LINKED",
-            "description": null
-          },
-          {
-            "name": "SUSTAINED HITS 1",
-            "description": null
-          }
+          "TWIN-LINKED",
+          "SUSTAINED HITS 1"
         ]
       },
       {
@@ -7108,10 +6266,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "TWIN-LINKED",
-            "description": null
-          }
+          "TWIN-LINKED"
         ]
       },
       {
@@ -7123,14 +6278,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "IGNORES COVER",
-            "description": null
-          },
-          {
-            "name": "TORRENT",
-            "description": null
-          }
+          "IGNORES COVER",
+          "TORRENT"
         ]
       },
       {
@@ -7142,10 +6291,7 @@
         "ap": "-2",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -7157,14 +6303,8 @@
         "ap": "-3",
         "damage": "3",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "hazardous",
-            "description": null
-          }
+          "blast",
+          "hazardous"
         ]
       },
       {
@@ -7176,10 +6316,7 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -7191,10 +6328,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "MELTA 2",
-            "description": null
-          }
+          "MELTA 2"
         ]
       },
       {
@@ -7216,10 +6350,7 @@
         "ap": "-3",
         "damage": "2",
         "abilities": [
-          {
-            "name": "HAZARDOUS",
-            "description": null
-          }
+          "HAZARDOUS"
         ]
       },
       {
@@ -7231,14 +6362,8 @@
         "ap": "0",
         "damage": "2",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "devastating wounds",
+          "twin-linked"
         ]
       }
     ],
@@ -7260,10 +6385,7 @@
         "ap": "-2",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-vehicle 3+",
-            "description": null
-          }
+          "anti-vehicle 3+"
         ]
       },
       {
@@ -7276,32 +6398,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "INVULNERABLE SAVE",
-        "description": "5+"
-      },
+        "name": "Deadly Demise 1",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Conversion",
-        "description": "Each time an attack made with this weapon targets a unit more than 12\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
-      },
-      {
-        "name": "CORE",
-        "description": "Deadly Demise 1"
-      },
-      {
-        "name": "FACTION",
-        "description": "Nurgle\u2019s Gift (Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Even In Death I Serve",
         "description": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
-      },
-      {
-        "name": "DETACHMENT ABILITY",
-        "description": "Spread the Sickness"
       }
     ],
+    "cost": "180",
     "keywords": [
       "VEHICLE",
       "WALKER",
@@ -7310,9 +6425,7 @@
       "DREADNOUGHT",
       "RELIC",
       "CONTEMPTOR",
-      "DREADNOUGHT",
-      "DEATH",
-      "GUARD"
+      "DREADNOUGHT"
     ]
   },
   {
@@ -7335,10 +6448,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -7350,10 +6460,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -7365,10 +6472,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       },
       {
@@ -7390,10 +6494,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -7408,24 +6509,29 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Armoured Spearhead",
         "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
       },
       {
-        "name": "Damaged: 1-5 Wounds Remaining",
+        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
         "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "220",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -7433,7 +6539,9 @@
       "SMOKE",
       "SICARAN",
       "BATTLE",
-      "TANK"
+      "TANK",
+      "DEATH",
+      "GUARD"
     ]
   },
   {
@@ -7456,10 +6564,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -7471,10 +6576,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "one shot",
-            "description": null
-          }
+          "one shot"
         ]
       },
       {
@@ -7496,10 +6598,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "devastating wounds",
-            "description": null
-          }
+          "devastating wounds"
         ]
       },
       {
@@ -7511,10 +6610,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -7529,24 +6625,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D3",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Rotating Death",
         "description": "This model\u2019s Punisher rotary cannon has the [SUSTAINED HITS 1] ability when targeting INFANTRY units."
-      },
-      {
-        "name": "Damaged: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
       }
     ],
+    "cost": "220",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -7576,10 +6673,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -7591,10 +6685,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "One shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "one shot"
         ]
       },
       {
@@ -7616,10 +6707,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -7631,10 +6719,7 @@
         "ap": "-4",
         "damage": "D3+3",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       }
     ],
@@ -7649,33 +6734,32 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
-      {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
-      {
-        "name": "Ferocious Assault:",
-        "description": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
-      },
-      {
-        "name": "DAMAGED: 1-5 WOUNDS REMAINING",
-        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        "name": "Deadly Demise D3",
+        "description": null
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Ferocious Assault",
+        "description": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE unit, add 1 to the Hit roll."
+      }
+    ],
+    "cost": "220",
     "keywords": [
       "VEHICLE",
       "CHAOS",
       "NURGLE",
       "SMOKE",
       "SICARAN",
-      "VENATOR",
-      "DEATH",
-      "GUARD"
+      "VENATOR"
     ]
   },
   {
@@ -7698,10 +6782,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "anti-fly",
-            "description": null
-          }
+          "anti-fly 3+"
         ]
       },
       {
@@ -7713,14 +6794,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -7732,10 +6807,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       }
     ],
@@ -7750,7 +6822,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise",
         "description": "2D6"
@@ -7758,20 +6830,21 @@
       {
         "name": "Hover",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Aerial Assault",
         "description": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
-      },
-      {
-        "name": "INVULNERABLE SAVE*",
-        "description": "4+"
       }
     ],
+    "cost": "1100",
     "keywords": [
       "VEHICLE",
       "TITANIC",
@@ -7780,8 +6853,7 @@
       "TRANSPORT",
       "CHAOS",
       "NURGLE",
-      "SOKAR-PATTERN",
-      "STORMBIRD"
+      "SOKAR-PATTERN STORMBIRD"
     ]
   },
   {
@@ -7804,10 +6876,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -7819,14 +6888,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "ignores cover",
-            "description": null
-          }
+          "torrent",
+          "ignores cover"
         ]
       },
       {
@@ -7838,10 +6901,7 @@
         "ap": "-4",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "heavy",
-            "description": null
-          }
+          "heavy"
         ]
       },
       {
@@ -7853,10 +6913,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -7878,10 +6935,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       },
       {
@@ -7893,14 +6947,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -7912,18 +6960,9 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "ignores cover",
-            "description": null
-          },
-          {
-            "name": "torrent",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "ignores cover",
+          "torrent",
+          "twin-linked"
         ]
       }
     ],
@@ -7938,20 +6977,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6"
-      },
-      {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
-      {
-        "name": "Assault Ramp",
-        "description": "Each time a unit disembarks from this model after it has made a Normal move , that unit is still eligible to declare a charge this turn."
+        "name": "Deadly Demise D6",
+        "description": null
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Assault Ramp",
+        "description": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+      }
+    ],
+    "cost": "315",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -7981,14 +7025,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "sustained hits 1",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "sustained hits 1",
+          "twin-linked"
         ]
       },
       {
@@ -8000,14 +7038,8 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "anti-fly 2+",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "anti-fly 2+",
+          "twin-linked"
         ]
       },
       {
@@ -8019,10 +7051,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -8034,14 +7063,8 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "melta 2",
-            "description": null
-          },
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "melta 2",
+          "twin-linked"
         ]
       },
       {
@@ -8053,10 +7076,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -8078,10 +7098,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          }
+          "blast"
         ]
       }
     ],
@@ -8096,7 +7113,7 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
         "name": "Deadly Demise D6",
         "description": null
@@ -8104,16 +7121,21 @@
       {
         "name": "Hover",
         "description": null
-      },
+      }
+    ],
+    "faction_abilities": [
       {
         "name": "Nurgle\u2019s Gift (Aura)",
         "description": null
-      },
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Armoured Resilience",
         "description": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
       }
     ],
+    "cost": "255",
     "keywords": [
       "VEHICLE",
       "FLY",
@@ -8146,10 +7168,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "Blast",
-            "description": null
-          }
+          "blast"
         ]
       },
       {
@@ -8161,10 +7180,7 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "Sustained hits 1",
-            "description": null
-          }
+          "sustained hits 1"
         ]
       },
       {
@@ -8176,14 +7192,8 @@
         "ap": "-1",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Torrent",
-            "description": null
-          },
-          {
-            "name": "Ignores cover",
-            "description": null
-          }
+          "torrent",
+          "ignores cover"
         ]
       },
       {
@@ -8205,10 +7215,7 @@
         "ap": "-4",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "Melta 2",
-            "description": null
-          }
+          "melta 2"
         ]
       },
       {
@@ -8220,10 +7227,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "Rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -8238,24 +7242,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D6"
-      },
+        "name": "Deadly Demise D6",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Sunderer of Fortresses",
         "description": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
-      },
-      {
-        "name": "Damaged",
-        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "cost": "385",
     "keywords": [
       "VEHICLE",
       "CHAOS",
@@ -8284,10 +7289,7 @@
         "ap": "-3",
         "damage": "D6",
         "abilities": [
-          {
-            "name": "One Shot",
-            "description": "The bearer can only shoot with this weapon once per battle."
-          }
+          "One Shot"
         ]
       },
       {
@@ -8299,14 +7301,8 @@
         "ap": "-1",
         "damage": "2",
         "abilities": [
-          {
-            "name": "blast",
-            "description": null
-          },
-          {
-            "name": "indirect fire",
-            "description": null
-          }
+          "blast",
+          "indirect fire"
         ]
       },
       {
@@ -8318,10 +7314,7 @@
         "ap": "0",
         "damage": "1",
         "abilities": [
-          {
-            "name": "rapid fire 2",
-            "description": null
-          }
+          "rapid fire 2"
         ]
       }
     ],
@@ -8336,28 +7329,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
-      {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
-      {
-        "name": "Pinning Bombardment",
-        "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test."
-      },
-      {
-        "name": "DAMAGED: 1-4 WOUNDS REMAINING",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-      },
-      {
-        "name": "Spread the Sickness",
+        "name": "Deadly Demise D3",
         "description": null
       }
     ],
+    "faction_abilities": [
+      {
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
+      {
+        "name": "Pinning Bombardment",
+        "description": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Scorpius multi-launcher scored a hit against an enemy INFANTRY unit, that unit must take a Battle-shock test."
+      }
+    ],
+    "cost": "115",
     "keywords": [
       "VEHICLE",
       "SMOKE",
@@ -8387,10 +7377,7 @@
         "ap": "-3",
         "damage": "D6+1",
         "abilities": [
-          {
-            "name": "twin-linked",
-            "description": null
-          }
+          "twin-linked"
         ]
       },
       {
@@ -8402,10 +7389,7 @@
         "ap": "-1",
         "damage": "3",
         "abilities": [
-          {
-            "name": "anti-fly",
-            "description": "2+"
-          }
+          "anti-fly 2+"
         ]
       }
     ],
@@ -8420,24 +7404,25 @@
         "abilities": []
       }
     ],
-    "abilities": [
+    "core_abilities": [
       {
-        "name": "Deadly Demise",
-        "description": "D3"
-      },
+        "name": "Deadly Demise D3",
+        "description": null
+      }
+    ],
+    "faction_abilities": [
       {
-        "name": "Nurgle\u2019s Gift",
-        "description": "(Aura)"
-      },
+        "name": "Nurgle\u2019s Gift (Aura)",
+        "description": null
+      }
+    ],
+    "ds_abilities": [
       {
         "name": "Interceptor",
         "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll."
-      },
-      {
-        "name": "DAMAGED",
-        "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll ."
       }
     ],
+    "cost": "115",
     "keywords": [
       "VEHICLE",
       "FLY",

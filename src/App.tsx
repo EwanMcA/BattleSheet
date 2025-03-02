@@ -5,6 +5,7 @@ import tau_faction from '../tau.json';
 import death_guard_faction from '../death-guard.json';
 import Army from "./Army";
 import Filters from "./Filters";
+import Home from "./Home";
 import { ABILITIES } from "./types";
 import { Keyword } from "./types";
 
@@ -41,7 +42,7 @@ const tau_list = [
         abilities: [ABILITIES.PISTOL],
       },
     ],
-    abilities: [
+    ds_abilities: [
       {
         name: "Breach and Clear",
         description:
@@ -94,7 +95,7 @@ const tau_list = [
         abilities: [ABILITIES.RAPID_1],
       },
     ],
-    abilities: [
+    ds_abilities: [
       {
         name: "Volley Fire",
         description:
@@ -159,7 +160,7 @@ const tau_list = [
         abilities: [ABILITIES.ONE_SHOT],
       },
     ],
-    abilities: [
+    ds_abilities: [
       {
         name: "Shield Drone",
         description: "Add 1 to the bearer's Wounds characteristic.",
@@ -234,7 +235,13 @@ const tau_list = [
         abilities: [ABILITIES.PISTOL],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Infiltrators",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Adv Guardian Drone",
         description:
@@ -263,7 +270,6 @@ const tau_list = [
       Keyword.EPIC_HERO,
       Keyword.BATTLESUIT,
       Keyword.SHADOWSUN,
-      Keyword.INFILTRATORS,
       Keyword.LONE_OPERATIVE,
       Keyword.STEALTH,
     ],
@@ -290,7 +296,13 @@ const tau_list = [
         abilities: [ABILITIES.MELTA_2],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Deep Strike",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Shield Drone",
         description: "Add 1 to the bearer's Wounds characteristic.",
@@ -312,7 +324,6 @@ const tau_list = [
       Keyword.CHARACTER,
       Keyword.BATTLESUIT,
       Keyword.COLDSTAR,
-      Keyword.DEEP_STRIKE,
     ],
   },
   {
@@ -337,7 +348,13 @@ const tau_list = [
         abilities: [],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Deep Strike",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Shield Drone",
         description: "Add 1 to the bearer's Wounds characteristic.",
@@ -359,7 +376,6 @@ const tau_list = [
       Keyword.CHARACTER,
       Keyword.BATTLESUIT,
       Keyword.ENFORCER,
-      Keyword.DEEP_STRIKE,
     ],
   },
   {
@@ -384,7 +400,13 @@ const tau_list = [
         abilities: [],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Deep Strike",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Shield Drone",
         description: "Add 1 to the bearer's Wounds characteristic.",
@@ -410,7 +432,6 @@ const tau_list = [
       Keyword.BATTLESUIT,
       Keyword.CRISIS,
       Keyword.FIREKNIFE,
-      Keyword.DEEP_STRIKE,
     ],
   },
   {
@@ -436,7 +457,13 @@ const tau_list = [
         abilities: [ABILITIES.MELTA_2],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Deep Strike",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Shield Drone",
         description: "Add 1 to the bearer's Wounds characteristic.",
@@ -458,7 +485,6 @@ const tau_list = [
       Keyword.BATTLESUIT,
       Keyword.CRISIS,
       Keyword.SUNFORGE,
-      Keyword.DEEP_STRIKE,
     ],
   },
   {
@@ -503,14 +529,17 @@ const tau_list = [
         abilities: [ABILITIES.ONE_SHOT],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "DEADLY DEMISE D3",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Rapid Deployment",
         description:
           "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
-      },
-      {
-        name: "DEADLY DEMISE D3",
       },
     ],
     keywords: [
@@ -519,7 +548,6 @@ const tau_list = [
       Keyword.DEDICATED_TRANSPORT,
       Keyword.TRANSPORT,
       Keyword.DEVILFISH,
-      Keyword.DEADLY_DEMISE,
     ],
   },
   {
@@ -564,7 +592,17 @@ const tau_list = [
         abilities: [ABILITIES.MELTA_2, ABILITIES.TWIN_LINKED],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Infiltrators",
+        description: null,
+      },
+      {
+        name: "DEADLY DEMISE D3",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Battlesuit Support System",
         description:
@@ -579,9 +617,6 @@ const tau_list = [
         name: "DAMAGED 1-4",
         description: "Subtract 1 from hit roll",
       },
-      {
-        name: "DEADLY DEMISE D3",
-      },
     ],
     keywords: [
       Keyword.VEHICLE,
@@ -590,8 +625,6 @@ const tau_list = [
       Keyword.SMOKE,
       Keyword.BATTLESUIT,
       Keyword.GHOSTKEEL,
-      Keyword.DEADLY_DEMISE,
-      Keyword.INFILTRATORS,
       Keyword.LONE_OPERATIVE,
       Keyword.STEALTH,
     ],
@@ -638,7 +671,13 @@ const tau_list = [
         abilities: [ABILITIES.ONE_SHOT],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "DEADLY DEMISE D3",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Armour Hunter",
         description:
@@ -661,7 +700,6 @@ const tau_list = [
       Keyword.VEHICLE,
       Keyword.FLY,
       Keyword.HAMMERHEAD,
-      Keyword.DEADLY_DEMISE,
     ],
   },
   {
@@ -706,7 +744,17 @@ const tau_list = [
         abilities: [ABILITIES.ONE_SHOT],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "SCOUTS 9",
+        description: null,
+      },
+      {
+        name: "DEADLY DEMISE 1",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Drone Harassment",
         description:
@@ -715,15 +763,10 @@ const tau_list = [
       {
         name: "DEADLY DEMISE 1",
       },
-      {
-        name: "SCOUTS 9",
-      },
     ],
     keywords: [
       Keyword.VEHICLE,
       Keyword.FLY,
-      Keyword.DEADLY_DEMISE,
-      Keyword.SCOUTS,
     ],
   },
   {
@@ -758,7 +801,13 @@ const tau_list = [
         abilities: [],
       },
     ],
-    abilities: [
+    core_abilities: [
+      {
+        name: "Infiltrators",
+        description: null,
+      },
+    ],
+    ds_abilities: [
       {
         name: "Marker Drone",
         description:
@@ -789,7 +838,6 @@ const tau_list = [
       Keyword.FLY,
       Keyword.BATTLESUIT,
       Keyword.STEALTH,
-      Keyword.INFILTRATORS,
     ],
   },
 ];
@@ -808,7 +856,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={
+        <Route index element={<Home />}/>
+        <Route path="1" element={
           <>
             <Filters toggleFilter={toggleFilter} activeFilters={filters} />
             <Army army={tau_list} filters={filters} />

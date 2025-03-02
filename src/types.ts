@@ -29,7 +29,7 @@ export type RangedWeapon = {
   strength: string;
   ap: string;
   damage: string;
-  abilities: Ability[];
+  abilities: string[];
 };
 
 export type MeleeWeapon = {
@@ -40,7 +40,7 @@ export type MeleeWeapon = {
   strength: string;
   ap: string;
   damage: string;
-  abilities: Ability[];
+  abilities: string[];
 };
 
 export type Ability = {
